@@ -30,7 +30,7 @@ namespace Info {
 
                 case Mode.CONSOLE:
                 {
-                    Regex re = new Regex(@"([^ ]*)\s+([^\.]*).*");
+                    Regex re = new Regex(@"([^ ]*)\s+(.*)\..*");
                     Match match = re.Match(filenameFixed);
                     string filename = match.Groups[1].Value;
                     name = $"{match.Groups[2].Value}";
