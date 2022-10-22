@@ -61,25 +61,26 @@ foreach (string path in query_paths)
 
     string queryMD5 = EasyMD5.GetMD5(path);
 
-    // Do an exact match using the MD5 of the file
-    if (md5Database.TryGetValue(queryMD5, out VideoInfo? info) && info != null)
-    {
-        match = info;
-    }
-
     // Do an approixmate match using the sound fingerprinting library
     // NOTE: The audio fingerprinting library used does not handle short audio files (about less than one second?)
     // Those short files will never be matched, so I've added MD5 matching as well.
+    foreach (var fingerPrinter in fingerPrinterCascade)
+    {
+        var queryResult = await fingerPrinter.QueryPath(pathToVideoInfo, sb, path);
+        if (queryResult.BestMatch != null)
+        {
+            match = pathToVideoInfo[queryResult.BestMatch.TrackId];
+            break;
+        }
+    }
+
+
     if (match == null)
     {
-        foreach (var fingerPrinter in fingerPrinterCascade)
+        // Do an exact match using the MD5 of the file
+        if (md5Database.TryGetValue(queryMD5, out VideoInfo? info) && info != null)
         {
-            var queryResult = await fingerPrinter.QueryPath(pathToVideoInfo, sb, path);
-            if (queryResult.BestMatch != null)
-            {
-                match = pathToVideoInfo[queryResult.BestMatch.TrackId];
-                break;
-            }
+            match = info;
         }
     }
 
