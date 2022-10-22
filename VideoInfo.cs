@@ -1,8 +1,10 @@
 using System.Text.RegularExpressions;
 
-namespace Info {
+namespace Info
+{
 
-    enum Mode {
+    enum Mode
+    {
         YOUTUBE_DL,
         CONSOLE
     }
@@ -17,32 +19,32 @@ namespace Info {
         {
             string filenameFixed = Path.GetFileName(filePathOrName).Replace("07th-Mod", "(07th_mod)");
 
-            switch (mode) {
+            switch (mode)
+            {
                 case Mode.YOUTUBE_DL:
-                {
-                    Regex re = new Regex(@"(.*)\s*-\s*(.*)\s*\[(.*)\].*");
-                    Match match = re.Match(filenameFixed);
-                    name = match.Groups[1].Value;
-                    source = match.Groups[2].Value;
-                    url = match.Groups[3].Value;
-                }
-                break;
+                    {
+                        Regex re = new Regex(@"(.*)\s*-\s*(.*)\s*\[(.*)\].*");
+                        Match match = re.Match(filenameFixed);
+                        name = match.Groups[1].Value;
+                        source = match.Groups[2].Value;
+                        url = match.Groups[3].Value;
+                    }
+                    break;
 
                 case Mode.CONSOLE:
-                {
-                    Regex re = new Regex(@"([^ ]*)\s+(.*)\..*");
-                    Match match = re.Match(filenameFixed);
-                    string filename = match.Groups[1].Value;
-                    name = $"{match.Groups[2].Value}";
-                    source = "";
-                    url = "";
-                }
-                break;
+                    {
+                        Regex re = new Regex(@"([^ ]*)\s+(.*)\..*");
+                        Match match = re.Match(filenameFixed);
+                        string filename = match.Groups[1].Value;
+                        name = $"{match.Groups[2].Value}";
+                        source = "";
+                        url = "";
+                    }
+                    break;
 
                 default:
                     throw new Exception("Unknown mode for parsing metainfo from filename");
             }
-
         }
 
         public override string ToString()
