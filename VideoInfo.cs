@@ -33,12 +33,20 @@ namespace Info
 
                 case Mode.CONSOLE:
                     {
-                        Regex re = new Regex(@"([^ ]*)\s+(.*)\..*");
+                        Regex re = new Regex(@"([^ ]*)\s+(.*?)(\s*\[(.{11})\])?\..*");
                         Match match = re.Match(filenameFixed);
                         string filename = match.Groups[1].Value;
                         name = $"{match.Groups[2].Value}";
                         source = "";
                         url = "";
+
+                        // URL is optional
+                        // Wihtout URL: "semi_r BSFX Cicadas with Phasor (GIN).wav"
+                        // With URL:    "msys23 Dancers7 (GIN) [0Wb-tFSRCnU].wav"
+                        if (match.Groups.Count >= 5)
+                        {
+                            url = match.Groups[4].Value;
+                        }
                     }
                     break;
 
