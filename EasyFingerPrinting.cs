@@ -80,9 +80,6 @@ namespace Info
 
         public async Task<AVQueryResult> QueryPath(Dictionary<string, VideoInfo> pathToVideoInfo, StringBuilder sb, string path)
         {
-            int secondsToAnalyse = 10;
-            int startAtSecond = 0;
-
             return await QueryCommandBuilder.Instance
                                             .BuildQueryCommand()
                                             .From(path)

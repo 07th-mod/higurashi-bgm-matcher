@@ -6,22 +6,32 @@ string reference_folder = "reference";
 bool force_rebuild = false;
 int? maxToProcess = null;
 
+// Mapping of MD5 of file to VideoInfo
+Dictionary<string, VideoInfo> md5Database = new Dictionary<string, VideoInfo>();
+
 EasyFingerPrinting[] fingerPrinterCascade = new EasyFingerPrinting[] {
     new EasyFingerPrinting(Path.Combine(reference_folder, "mario"), "database_mario", force_rebuild, maxToProcess),
     new EasyFingerPrinting(Path.Combine(reference_folder, "manual_matches"), "database_manual_matches", force_rebuild, maxToProcess),
     new EasyFingerPrinting(Path.Combine(reference_folder, "console_hou"), "database_console_hou", force_rebuild, maxToProcess),
 };
 
-Console.WriteLine($"--------------- Building Filename List [{reference_folder}]-----------------");
+Console.WriteLine($"--------------- Building Filename and MD5 List [{reference_folder}]-----------------");
 Dictionary<string, VideoInfo> pathToVideoInfo = new Dictionary<string, VideoInfo>();
 {
+    int cnt2 = 0;
     string youtube_folder = "mario";
     string[] database_paths = Directory.GetFiles(reference_folder, "*.*", SearchOption.AllDirectories);
     foreach (string path in database_paths)
     {
+        cnt2++;
         VideoInfo info = new VideoInfo(path, path.Contains(youtube_folder) ? Mode.YOUTUBE_DL : Mode.CONSOLE);
-        // Console.WriteLine($"Parsing filename {info}");
         pathToVideoInfo[path] = info;
+
+        // Add MD5 to database
+        string md5 = EasyMD5.GetMD5(path);
+        md5Database[md5] = info;
+
+        Console.WriteLine($"MD5-ing {cnt2}/{database_paths.Count()} {path}");
     }
 }
 
@@ -38,7 +48,7 @@ string[] query_paths = Directory.GetFiles(query_folder, "*.*", SearchOption.AllD
 
 StringBuilder sb = new StringBuilder();
 
-sb.AppendLine("path, name1, source1, url1, name2, source2, url2, name3, source3, url3,");
+sb.AppendLine("path, name1, source1, url1,");
 
 int cnt = 0;
 foreach (string path in query_paths)
@@ -48,15 +58,28 @@ foreach (string path in query_paths)
 
     // Search through each database looking for a match
     VideoInfo? match = null;
-    foreach (var fingerPrinter in fingerPrinterCascade)
+
+    string queryMD5 = EasyMD5.GetMD5(path);
+
+    // Do an exact match using the MD5 of the file
+    if (md5Database.TryGetValue(queryMD5, out VideoInfo? info) && info != null)
     {
-        var queryResult = await fingerPrinter.QueryPath(pathToVideoInfo, sb, path);
-        // Console.WriteLine($"Best Match: {queryResult.BestMatch.TrackId}");
-        if (queryResult.BestMatch != null)
+        match = info;
+    }
+
+    // Do an approixmate match using the sound fingerprinting library
+    // NOTE: The audio fingerprinting library used does not handle short audio files (about less than one second?)
+    // Those short files will never be matched, so I've added MD5 matching as well.
+    if (match == null)
+    {
+        foreach (var fingerPrinter in fingerPrinterCascade)
         {
-            //{entry.TrackCoverageWithPermittedGapsLength:0.00}/{entry.Track.Length},
-            match = pathToVideoInfo[queryResult.BestMatch.TrackId];
-            break;
+            var queryResult = await fingerPrinter.QueryPath(pathToVideoInfo, sb, path);
+            if (queryResult.BestMatch != null)
+            {
+                match = pathToVideoInfo[queryResult.BestMatch.TrackId];
+                break;
+            }
         }
     }
 
