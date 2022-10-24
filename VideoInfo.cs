@@ -55,6 +55,13 @@ namespace Info
             }
         }
 
+        public VideoInfo(string name, string source, string url)
+        {
+            this.name = name;
+            this.source = source;
+            this.url = url;
+        }
+
         public override string ToString()
         {
             return $"url: {url,-11} name: {name,-60} source: {source}";

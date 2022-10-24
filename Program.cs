@@ -1,5 +1,78 @@
 ﻿using Info;
+using MODJSONClasses;
+using Newtonsoft.Json;
+using System.Collections.Generic;
 using System.Text;
+
+void WriteResultsAsCSV(Dictionary<string, VideoInfo?> results, string outputPath)
+{
+    StringBuilder sb = new StringBuilder();
+    sb.AppendLine("path, name1, source1, url1,");
+
+    foreach ((string path, VideoInfo? maybeInfo) in results)
+    {
+        sb.Append($"\"{path}\",");
+        if (maybeInfo != null)
+        {
+            sb.Append($"\"{maybeInfo.name}\",\"{maybeInfo.source}\",\"{maybeInfo.url}\",");
+        }
+        sb.AppendLine();
+    }
+
+    File.WriteAllText(outputPath, sb.ToString());
+}
+
+void WriteResultsAsJSONFiles(Dictionary<string, VideoInfo?> results, string pathSuffix)
+{
+    Dictionary<string, BGMInfoDict> jsonToBeWritten = new Dictionary<string, BGMInfoDict>();
+
+    // First, sort files based on their folder
+    foreach ((string path, VideoInfo? maybeInfo) in results)
+    {
+        string[] pathParts = path.Split(new[] { Path.DirectorySeparatorChar, Path.AltDirectorySeparatorChar });
+
+        // Determine which JSON file this BGM should be put in
+        string jsonPrefix = "unknown";
+
+        if (pathParts.Length > 3)
+        {
+            jsonPrefix = $"{pathParts[1]}-{pathParts[2]}";
+        }
+
+        if (pathParts.Length < 4)
+        {
+            throw new Exception("Invalid path");
+        }
+
+        // Determine what the relative path of the BGM is
+        string relativePath = "";
+        for (int i = 3; i < pathParts.Length; i++)
+        {
+            relativePath = Path.Combine(relativePath, pathParts[i]);
+        }
+
+        Console.WriteLine($"JsonPrefix: {jsonPrefix} RelativePath: {relativePath}");
+
+        if (!jsonToBeWritten.TryGetValue(jsonPrefix, out BGMInfoDict _))
+        {
+            jsonToBeWritten[jsonPrefix] = new BGMInfoDict();
+        }
+
+        // Store the BGM in a way it can be written out later
+        jsonToBeWritten[jsonPrefix].bgmList[relativePath] = maybeInfo == null ? new BGMInfo() : new BGMInfo(
+            comment: "",
+            name: maybeInfo.name,
+            source: maybeInfo.source,
+            url: maybeInfo.url
+        );
+    }
+
+    // Write out all the saved BGM info
+    foreach ((string jsonPath, BGMInfoDict maybeInfo) in jsonToBeWritten)
+    {
+        File.WriteAllText($"{jsonPath}-{pathSuffix}", JsonConvert.SerializeObject(maybeInfo, Formatting.Indented));
+    }
+}
 
 // This folder contains named music files which are used to build the database
 string reference_folder = "reference";
@@ -46,9 +119,12 @@ string query_folder = "mod";
 Console.WriteLine($"--------------- Begin querying [{query_folder}]-----------------");
 string[] query_paths = Directory.GetFiles(query_folder, "*.*", SearchOption.AllDirectories); ;
 
-StringBuilder sb = new StringBuilder();
+// Dictionary<string, VideoInfo?> results = new Dictionary<string, VideoInfo?> {
+//     {"mod\\answer\\BGM\\03_cele.wav", new VideoInfo("test", "source", "url")},
+//     {"mod\\question\\BGM\\02_cele.wav", new VideoInfo("testa", "sourcea", "urla")},
+// };
 
-sb.AppendLine("path, name1, source1, url1,");
+Dictionary<string, VideoInfo?> results = new Dictionary<string, VideoInfo?>();
 
 int cnt = 0;
 foreach (string path in query_paths)
@@ -66,7 +142,7 @@ foreach (string path in query_paths)
     // Those short files will never be matched, so I've added MD5 matching as well.
     foreach (var fingerPrinter in fingerPrinterCascade)
     {
-        var queryResult = await fingerPrinter.QueryPath(pathToVideoInfo, sb, path);
+        var queryResult = await fingerPrinter.QueryPath(pathToVideoInfo, path);
         if (queryResult.BestMatch != null)
         {
             match = pathToVideoInfo[queryResult.BestMatch.TrackId];
@@ -84,12 +160,7 @@ foreach (string path in query_paths)
         }
     }
 
-    sb.Append($"\"{path}\",");
-    if (match != null)
-    {
-        sb.Append($"\"{match.name}\",\"{match.source}\",\"{match.url}\",");
-    }
-    sb.AppendLine();
+    results[path] = match;
 
     if (cnt >= maxToProcess)
     {
@@ -97,7 +168,11 @@ foreach (string path in query_paths)
     }
 }
 
-File.WriteAllText("query_result.csv", sb.ToString());
+// Write out CSV file
+WriteResultsAsCSV(results, "query_result.csv");
+
+// Write out JSON files
+WriteResultsAsJSONFiles(results, "result.json");
 
 
 

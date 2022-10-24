@@ -78,7 +78,7 @@ namespace Info
             modelService.Insert(track, avHashes);
         }
 
-        public async Task<AVQueryResult> QueryPath(Dictionary<string, VideoInfo> pathToVideoInfo, StringBuilder sb, string path)
+        public async Task<AVQueryResult> QueryPath(Dictionary<string, VideoInfo> pathToVideoInfo, string path)
         {
             return await QueryCommandBuilder.Instance
                                             .BuildQueryCommand()
