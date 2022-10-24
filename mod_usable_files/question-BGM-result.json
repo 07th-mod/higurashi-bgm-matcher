@@ -1,0 +1,346 @@
+{
+  "bgmList": {
+    "lsys11.wav": {
+      "comment": "",
+      "name": "BSFX Cicadas (GIN)",
+      "source": "",
+      "url": ""
+    },
+    "lsys12.wav": {
+      "comment": "",
+      "name": "BSFX Insects 1 (GIN)",
+      "source": "",
+      "url": ""
+    },
+    "lsys13.wav": {
+      "comment": "",
+      "name": "BSFX Insects 2 (GIN)",
+      "source": "",
+      "url": ""
+    },
+    "lsys14.wav": {
+      "comment": "",
+      "name": "BSFX Monks Chanting (New)",
+      "source": "",
+      "url": ""
+    },
+    "lsys15.wav": {
+      "comment": "",
+      "name": "BSFX Creepy Cicadas (GIN)",
+      "source": "",
+      "url": ""
+    },
+    "lsys16.wav": {
+      "comment": "",
+      "name": "BSFX Frogs (GIN)",
+      "source": "",
+      "url": ""
+    },
+    "lsys17.wav": {
+      "comment": "",
+      "name": "BSFX Telephone (GIN)",
+      "source": "",
+      "url": ""
+    },
+    "lsys18.wav": {
+      "comment": "",
+      "name": "BSFX Creepy Rattle (GIN)",
+      "source": "",
+      "url": ""
+    },
+    "lsys19.wav": {
+      "comment": "",
+      "name": "BSFX River (GIN)",
+      "source": "",
+      "url": ""
+    },
+    "lsys20.wav": {
+      "comment": "",
+      "name": "BSFX Car and Traffic (GIN)",
+      "source": "",
+      "url": ""
+    },
+    "lsys21.wav": {
+      "comment": "",
+      "name": "BSFX Train (GIN)",
+      "source": "",
+      "url": ""
+    },
+    "lsys22.wav": {
+      "comment": "",
+      "name": "BSFX Birds (GIN)",
+      "source": "",
+      "url": ""
+    },
+    "lsys23.wav": {
+      "comment": "",
+      "name": "BSFX Rain (GIN)",
+      "source": "",
+      "url": ""
+    },
+    "lsys24.wav": {
+      "comment": "",
+      "name": "BSFX Typing (GIN)",
+      "source": "",
+      "url": ""
+    },
+    "lsys25.wav": {
+      "comment": "",
+      "name": "BSFX Creepy Phasor (GIN)",
+      "source": "",
+      "url": ""
+    },
+    "lsys26.wav": {
+      "comment": "",
+      "name": "BSFX Water (GIN)",
+      "source": "",
+      "url": ""
+    },
+    "lsys27.wav": {
+      "comment": "",
+      "name": "BSFX Windy Rain (GIN)",
+      "source": "",
+      "url": ""
+    },
+    "lsys28.wav": {
+      "comment": "",
+      "name": "한탄의 숲 inst 嘆きノ森 インストver",
+      "source": "",
+      "url": ""
+    },
+    "lsys29.wav": {
+      "comment": "",
+      "name": "BSFX Car and Traffic (GIN)",
+      "source": "",
+      "url": ""
+    },
+    "lsys30.wav": {
+      "comment": "",
+      "name": "BSFX Drippy Rain (GIN)",
+      "source": "",
+      "url": ""
+    },
+    "lsys31.wav": {
+      "comment": "",
+      "name": "BSFX Mangled String Instrument (GIN)",
+      "source": "",
+      "url": ""
+    },
+    "lsys32.wav": {
+      "comment": "",
+      "name": "BSFX Alarm (New)",
+      "source": "",
+      "url": ""
+    },
+    "msys01.wav": {
+      "comment": "",
+      "name": "Boy in the Windmill (Fuushagoya no Shounen⧸風車小屋の少年 ) ",
+      "source": "Higurashi no Naku Koro ni Kai ",
+      "url": "szDKbPLq-to"
+    },
+    "msys02.wav": {
+      "comment": "",
+      "name": "kneecap ",
+      "source": "Higurashi Daybreak [Disc 2] ",
+      "url": "q3PIL4qPVVU"
+    },
+    "msys03.wav": {
+      "comment": "",
+      "name": "bright sun ",
+      "source": "Higurashi Daybreak [Disc 2] ",
+      "url": "1BSQveysms0"
+    },
+    "msys04.wav": {
+      "comment": "",
+      "name": "spinning seesaw ",
+      "source": "Higurashi Daybreak [Disc 2] ",
+      "url": "4IuDgaMyKLA"
+    },
+    "msys05.wav": {
+      "comment": "",
+      "name": "What is Wished ",
+      "source": "Higurashi no Naku Koro ni Kai ",
+      "url": "Iskv6DyiSXs"
+    },
+    "msys06.wav": {
+      "comment": "",
+      "name": "Iru ",
+      "source": "Higurashi no Naku Koro ni Kai ",
+      "url": "DUXfUyX7N4A"
+    },
+    "msys07.wav": {
+      "comment": "",
+      "name": "Gallery of Madness (Kiyouki he no Kairou⧸狂気への回廊) ",
+      "source": "Higurashi no Naku Koro ni Kai ",
+      "url": "tQXW5L59Zpo"
+    },
+    "msys08.wav": {
+      "comment": "",
+      "name": "Insanity (Kyoki ⧸ 狂気) ",
+      "source": "Higurashi no Naku Koro ni Kai ： The Lost Tracks ",
+      "url": "qsywLEgelUo"
+    },
+    "msys09.wav": {
+      "comment": "",
+      "name": "Quickening (Taidou⧸胎動) ",
+      "source": "Higurashi no Naku Koro ni Kai ",
+      "url": "78M48YTHsbU"
+    },
+    "msys11.wav": {
+      "comment": "",
+      "name": "BSFX Cicadas (GIN)",
+      "source": "",
+      "url": ""
+    },
+    "msys12.wav": {
+      "comment": "",
+      "name": "BSFX Insects 1 (GIN)",
+      "source": "",
+      "url": ""
+    },
+    "msys13.wav": {
+      "comment": "",
+      "name": "BSFX Insects 2 (GIN)",
+      "source": "",
+      "url": ""
+    },
+    "msys14.wav": {
+      "comment": "",
+      "name": "BSFX Monks Chanting (New)",
+      "source": "",
+      "url": ""
+    },
+    "msys15.wav": {
+      "comment": "",
+      "name": "msys15 REPLACEMENT Cello and Epic Drums (New)",
+      "source": "",
+      "url": ""
+    },
+    "msys16.wav": {
+      "comment": "",
+      "name": "BSFX Creepy Cicadas (GIN)",
+      "source": "",
+      "url": ""
+    },
+    "msys17.wav": {
+      "comment": "",
+      "name": "Gear ",
+      "source": "Higurashi no Naku Koro ni ",
+      "url": "MX1hS7PwgRU"
+    },
+    "msys18.wav": {
+      "comment": "",
+      "name": "Dawn ",
+      "source": "Higurashi no Naku Koro ni ",
+      "url": "D4Vd1350-a8"
+    },
+    "msys19.wav": {
+      "comment": "",
+      "name": "Theme of owner ",
+      "source": "Higurashi no Naku Koro ni ",
+      "url": "Og3m-0CsePA"
+    },
+    "msys20.wav": {
+      "comment": "",
+      "name": "Fascism ",
+      "source": "Higurashi no Naku Koro ni ",
+      "url": "GhKrTag5Rbc"
+    },
+    "msys21.wav": {
+      "comment": "",
+      "name": "Rainy Days ",
+      "source": "Higurashi no Naku Koro ni ",
+      "url": "m18qsZ8jDyg"
+    },
+    "msys22.wav": {
+      "comment": "",
+      "name": "Dancers #1 ",
+      "source": "Higurashi no Naku Koro ni ",
+      "url": "127rv27P6AI"
+    },
+    "msys23.wav": {
+      "comment": "",
+      "name": "Dancers #7 ",
+      "source": "Higurashi no Naku Koro ni ",
+      "url": "OVFNCdodmTA"
+    },
+    "msys24.wav": {
+      "comment": "",
+      "name": "Snow #3 ＂First snow＂ ",
+      "source": "Higurashi no Naku Koro ni ",
+      "url": "QYQH4UjGuvY"
+    },
+    "msys25.wav": {
+      "comment": "",
+      "name": "Snow #4 ＂Frozen to death＂ ",
+      "source": "Higurashi no Naku Koro ni ",
+      "url": "5G_DfhL8XP0"
+    },
+    "msys26.wav": {
+      "comment": "",
+      "name": "Sunrise ",
+      "source": "Higurashi no Naku Koro ni ",
+      "url": "DvBwbtRxE0A"
+    },
+    "msys27.wav": {
+      "comment": "",
+      "name": "Tell a thing -piano solo ver.- (Radiata Alice Version) ",
+      "source": "Higurashi no Naku Koro ni (07th_mod) ",
+      "url": "XUNOms16TdY"
+    },
+    "msys28.wav": {
+      "comment": "",
+      "name": "Lie lies-lies lie ",
+      "source": "Higurashi no Naku Koro ni ",
+      "url": "9D1MewtrV1M"
+    },
+    "msys29.wav": {
+      "comment": "",
+      "name": "Heigen wo Iku (Going to the Plains) ",
+      "source": "Higurashi no Naku Koro ni ",
+      "url": "3DpmpxF_VzQ"
+    },
+    "msys30.wav": {
+      "comment": "",
+      "name": "Meditation #1 ",
+      "source": "Higurashi no Naku Koro ni ",
+      "url": "bvHD_Plk4c4"
+    },
+    "msys31.wav": {
+      "comment": "",
+      "name": "Days of children #3 ",
+      "source": "Higurashi no Naku Koro ni ",
+      "url": "F8iQ9urzH-8"
+    },
+    "msys32.wav": {
+      "comment": "",
+      "name": "Dancers #5 ",
+      "source": "Higurashi no Naku Koro ni ",
+      "url": "nQe2zT8nicI"
+    },
+    "msysmi.wav": {
+      "comment": "",
+      "name": "msysmi REPLACEMENT Upbeat Rock Music (New)",
+      "source": "",
+      "url": ""
+    },
+    "msysre.wav": {
+      "comment": "",
+      "name": "Search and Destroy ",
+      "source": "Higurashi no Naku Koro ni Kai ",
+      "url": "Xvh5lbVQX0g"
+    },
+    "msysri.wav": {
+      "comment": "",
+      "name": "Nipa~☆ ",
+      "source": "Higurashi Daybreak [Disc 2] ",
+      "url": "1wamdr1ruzI"
+    },
+    "msyssa.wav": {
+      "comment": "",
+      "name": "Snow #4 ＂Frozen to death＂ ",
+      "source": "Higurashi no Naku Koro ni ",
+      "url": "5G_DfhL8XP0"
+    }
+  }
+}

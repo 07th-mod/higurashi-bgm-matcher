@@ -1,0 +1,310 @@
+{
+  "bgmList": {
+    "1.wav": {
+      "comment": "",
+      "name": "Paris no Gogo (Afternoon in Paris) ",
+      "source": "Higurashi no Naku Koro ni ",
+      "url": "DEM-rr7zm9g"
+    },
+    "3.wav": {
+      "comment": "",
+      "name": "Sutakorasassa (Helter Skelter) ",
+      "source": "Higurashi no Naku Koro ni ",
+      "url": "WY_-MK0XBGc"
+    },
+    "4.wav": {
+      "comment": "",
+      "name": "Digital Network ",
+      "source": "Higurashi no Naku Koro ni ",
+      "url": "WABneXoH9ls"
+    },
+    "ame.wav": {
+      "comment": "",
+      "name": "BSFX Rain (GIN)",
+      "source": "",
+      "url": ""
+    },
+    "attack.wav": {
+      "comment": "",
+      "name": "Assault Operations ",
+      "source": "Higurashi no Naku Koro ni Kai ： The Lost Tracks ",
+      "url": "4QfNMaiM8Og"
+    },
+    "b01_akarui.wav": {
+      "comment": "",
+      "name": "Paris no Gogo (Afternoon in Paris) ",
+      "source": "Higurashi no Naku Koro ni ",
+      "url": "DEM-rr7zm9g"
+    },
+    "b03_dame.wav": {
+      "comment": "",
+      "name": "Sutakorasassa (Helter Skelter) ",
+      "source": "Higurashi no Naku Koro ni ",
+      "url": "WY_-MK0XBGc"
+    },
+    "b04_bukatu.wav": {
+      "comment": "",
+      "name": "Digital Network ",
+      "source": "Higurashi no Naku Koro ni ",
+      "url": "WABneXoH9ls"
+    },
+    "b11_rika.wav": {
+      "comment": "",
+      "name": "Baby's Walk (Rika) ",
+      "source": "Higurashi no Naku Koro ni ",
+      "url": "9kdlDI_Rb4A"
+    },
+    "b11_rika_oldver.wav": {
+      "comment": "",
+      "name": "Baby's Walk (Rika) ",
+      "source": "Higurashi no Naku Koro ni ",
+      "url": "9kdlDI_Rb4A"
+    },
+    "BIGBEAR.wav": {
+      "comment": "",
+      "name": "Big Bear ",
+      "source": "Higurashi no Naku Koro ni Kai ",
+      "url": "i2bp9VpmSCM"
+    },
+    "denwa_m.wav": {
+      "comment": "",
+      "name": "BSFX Modern Phone Ringing (GIN)",
+      "source": "",
+      "url": ""
+    },
+    "heri.wav": {
+      "comment": "",
+      "name": "BSFX Helicopter (GIN)",
+      "source": "",
+      "url": ""
+    },
+    "hgrs03.wav": {
+      "comment": "",
+      "name": "Frozen memories ",
+      "source": "Higurashi no Naku Koro ni Kai ",
+      "url": "gR6aS2m9HEE"
+    },
+    "higurashi.wav": {
+      "comment": "",
+      "name": "Fabricated Dream (Sorayume⧸空夢) ",
+      "source": "Higurashi no Naku Koro ni Kai ",
+      "url": "_KOvyNu5_tA"
+    },
+    "hm05_20.wav": {
+      "comment": "",
+      "name": "혼자 ひとり",
+      "source": "",
+      "url": ""
+    },
+    "iwakannnohatuga.wav": {
+      "comment": "",
+      "name": "Germination of Discomfort 違和感の発芽 (Higurashi Kai)",
+      "source": "",
+      "url": ""
+    },
+    "jikuu.wav": {
+      "comment": "",
+      "name": "BSFX Jump Scare Knock (GIN)",
+      "source": "",
+      "url": ""
+    },
+    "jikuu_a.wav": {
+      "comment": "",
+      "name": "BSFX Mangled String Instrument (GIN)",
+      "source": "",
+      "url": ""
+    },
+    "kaze.wav": {
+      "comment": "",
+      "name": "BSFX Creepy Phasor (GIN)",
+      "source": "",
+      "url": ""
+    },
+    "lsys13.wav": {
+      "comment": "",
+      "name": "BSFX Cicadas with Rushing Water (GIN)",
+      "source": "",
+      "url": ""
+    },
+    "mati.wav": {
+      "comment": "",
+      "name": "BSFX Car and Traffic (GIN)",
+      "source": "",
+      "url": ""
+    },
+    "mion.wav": {
+      "comment": "",
+      "name": "Spring Step (Mion) ",
+      "source": "Higurashi no Naku Koro ni ",
+      "url": "8gkVtW1QV6k"
+    },
+    "msys01.wav": {
+      "comment": "",
+      "name": "Paris no Gogo (Afternoon in Paris) ",
+      "source": "Higurashi no Naku Koro ni ",
+      "url": "DEM-rr7zm9g"
+    },
+    "msys03.wav": {
+      "comment": "",
+      "name": "Sutakorasassa (Helter Skelter) ",
+      "source": "Higurashi no Naku Koro ni ",
+      "url": "WY_-MK0XBGc"
+    },
+    "msys06.wav": {
+      "comment": "",
+      "name": "Silence ",
+      "source": "Higurashi no Naku Koro ni ",
+      "url": "StjLCsfIbqQ"
+    },
+    "msys07.wav": {
+      "comment": "",
+      "name": "Doukutsu (Cave) ",
+      "source": "Higurashi no Naku Koro ni ",
+      "url": "C5NjBlR3Y58"
+    },
+    "msys08.wav": {
+      "comment": "",
+      "name": "Mazoku Kenkyuusho (Demonic Institute) ",
+      "source": "Higurashi no Naku Koro ni ",
+      "url": "d11-trxvJx4"
+    },
+    "msys09.wav": {
+      "comment": "",
+      "name": "Seijaku (Quietness) ",
+      "source": "Higurashi no Naku Koro ni ",
+      "url": "9IReJdqR-Hc"
+    },
+    "msys15.wav": {
+      "comment": "",
+      "name": "Silver Mirror ",
+      "source": "Higurashi no Naku Koro ni ",
+      "url": "qTxmYXt2nfE"
+    },
+    "msys17.wav": {
+      "comment": "",
+      "name": "Gear ",
+      "source": "Higurashi no Naku Koro ni ",
+      "url": "MX1hS7PwgRU"
+    },
+    "msys23.wav": {
+      "comment": "",
+      "name": "Dancers7 (GIN)",
+      "source": "",
+      "url": "0Wb-tFSRCnU"
+    },
+    "msys27.wav": {
+      "comment": "",
+      "name": "Tell a thing -piano solo ver.- (Radiata Alice Version) ",
+      "source": "Higurashi no Naku Koro ni (07th_mod) ",
+      "url": "XUNOms16TdY"
+    },
+    "msys30.wav": {
+      "comment": "",
+      "name": "Meditation #1 ",
+      "source": "Higurashi no Naku Koro ni ",
+      "url": "bvHD_Plk4c4"
+    },
+    "m_denwa8k.wav": {
+      "comment": "",
+      "name": "Utu ",
+      "source": "Higurashi no Naku Koro ni Kai ",
+      "url": "4DhtzrwhVyo"
+    },
+    "primal-beat-of-horrow_T.wav": {
+      "comment": "",
+      "name": "Primal Beat of Horrow ",
+      "source": "Higurashi no Naku Koro ni Kai ： The Lost Tracks ",
+      "url": "KZuQ8WyfurE"
+    },
+    "rain.wav": {
+      "comment": "",
+      "name": "BSFX Rain (GIN)",
+      "source": "",
+      "url": ""
+    },
+    "rika.wav": {
+      "comment": "",
+      "name": "Baby's Walk (Rika) ",
+      "source": "Higurashi no Naku Koro ni ",
+      "url": "9kdlDI_Rb4A"
+    },
+    "semi.wav": {
+      "comment": "",
+      "name": "BSFX Cicadas (GIN)",
+      "source": "",
+      "url": ""
+    },
+    "semi_r.wav": {
+      "comment": "",
+      "name": "BSFX Cicadas with Phasor (GIN)",
+      "source": "",
+      "url": ""
+    },
+    "song_ps2ed1.wav": {
+      "comment": "",
+      "name": "escape",
+      "source": "",
+      "url": ""
+    },
+    "song_you.wav": {
+      "comment": "",
+      "name": "You (vocals) ",
+      "source": "Unknown ",
+      "url": "jdY1t1utvrI"
+    },
+    "suzu.wav": {
+      "comment": "",
+      "name": "SFX Bells (GIN)",
+      "source": "",
+      "url": ""
+    },
+    "suzume.wav": {
+      "comment": "",
+      "name": "BSFX Birds (GIN)",
+      "source": "",
+      "url": ""
+    },
+    "taip.wav": {
+      "comment": "",
+      "name": "BSFX Satisfying Typing Sounds (GIN)",
+      "source": "",
+      "url": ""
+    },
+    "tsukisanbika.wav": {
+      "comment": "",
+      "name": "Moon -Cruelness⇔Tribute- Song ",
+      "source": "Higurashi no Naku Koro ni Kai ： The Lost Tracks ",
+      "url": "vrxGUuia50M"
+    },
+    "tsutaetaikoto.wav": {
+      "comment": "",
+      "name": "Things I Want to Convey (Tsutaetai Koto⧸伝えたいこと) ",
+      "source": "Higurashi no Naku Koro ni Kai ",
+      "url": "otdpzAe9cQo"
+    },
+    "type.wav": {
+      "comment": "",
+      "name": "BSFX Muted Typing Sounds (GIN)",
+      "source": "",
+      "url": ""
+    },
+    "yabaisemi.wav": {
+      "comment": "",
+      "name": "BSFX High Pitched Phasor Cicadas (GIN)",
+      "source": "",
+      "url": ""
+    },
+    "yoru.wav": {
+      "comment": "",
+      "name": "BSFX Quieter Cicadas with Rushing Water (GIN)",
+      "source": "",
+      "url": ""
+    },
+    "yorumushi.wav": {
+      "comment": "",
+      "name": "BSFX Quieter Cicadas with Rushing Water (GIN)",
+      "source": "",
+      "url": ""
+    }
+  }
+}
