@@ -80,10 +80,13 @@ namespace Info
 
         public async Task<AVQueryResult> QueryPath(Dictionary<string, VideoInfo> pathToVideoInfo, string path)
         {
+            // For some reason, if this is not specified, can produce poor quality matches?
+            float secondsToAnalyse = 10;
+            float startAtSecond = 0;
             return await QueryCommandBuilder.Instance
                                             .BuildQueryCommand()
-                                            .From(path)
-                                            // .From(path, secondsToAnalyse, startAtSecond)
+                                            //.From(path)
+                                            .From(path, secondsToAnalyse, startAtSecond)
                                             .UsingServices(modelService)
                                             .Query();
         }
