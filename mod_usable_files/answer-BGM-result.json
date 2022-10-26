@@ -308,15 +308,15 @@
     },
     "higurashi_soundscape": {
       "comment": "",
-      "name": "Festivals (Shiukusai⧸祝祭) ",
-      "source": "Higurashi no Naku Koro ni Kai ",
+      "name": "Festivals 祝祭 - Higurashi no Naku Koro ni Kai",
+      "source": "",
       "url": "zLJW4lBlNAY"
     },
     "higurashi_utu": {
       "comment": "",
-      "name": "Utu ",
-      "source": "Higurashi no Naku Koro ni Kai ",
-      "url": "4DhtzrwhVyo"
+      "name": "Utu - Higurashi no Naku Koro ni Kai (New)",
+      "source": "",
+      "url": ""
     },
     "higurasi": {
       "comment": "",
@@ -350,9 +350,9 @@
     },
     "hm01_04": {
       "comment": "",
-      "name": "Night When the Invisible Scares You ",
-      "source": "Higurashi no Naku Koro ni Kai ： The Lost Tracks ",
-      "url": "TRF5vvM3MZU"
+      "name": "ぽかぽか散歩道",
+      "source": "",
+      "url": ""
     },
     "hm01_05": {
       "comment": "",
@@ -368,9 +368,9 @@
     },
     "hm01_07": {
       "comment": "",
-      "name": "Things I Want to Convey (Tsutaetai Koto⧸伝えたいこと) ",
-      "source": "Higurashi no Naku Koro ni Kai ",
-      "url": "otdpzAe9cQo"
+      "name": "夜鈴の調べ",
+      "source": "",
+      "url": ""
     },
     "hm02_08": {
       "comment": "",
@@ -404,7 +404,7 @@
     },
     "hm03_14": {
       "comment": "",
-      "name": "msysre REPLACEMENT Nostalgic Guitar Drums and Strings (New)",
+      "name": "迷い子たちの帰宅",
       "source": "",
       "url": ""
     },
@@ -416,9 +416,9 @@
     },
     "hm05_21": {
       "comment": "",
-      "name": "Heigen wo Iku (Going to the Plains) ",
-      "source": "Higurashi no Naku Koro ni ",
-      "url": "3DpmpxF_VzQ"
+      "name": "償いのコトバ",
+      "source": "",
+      "url": ""
     },
     "hm10_54": {
       "comment": "",
@@ -470,7 +470,7 @@
     },
     "kaze": {
       "comment": "",
-      "name": "BSFX Slow Phasor Wind (New)",
+      "name": "BSFX Slow Phasor Wind (New) dup of kaze",
       "source": "",
       "url": ""
     },
@@ -764,7 +764,7 @@
     },
     "yabaisemi": {
       "comment": "",
-      "name": "BSFX Slow Phasor Wind (New)",
+      "name": "BSFX Slow Phasor Wind (New) dup of kaze",
       "source": "",
       "url": ""
     },
