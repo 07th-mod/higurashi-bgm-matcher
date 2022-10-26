@@ -1,342 +1,342 @@
 {
   "bgmList": {
-    "lsys11.wav": {
+    "lsys11": {
       "comment": "",
       "name": "BSFX Cicadas (GIN)",
       "source": "",
       "url": ""
     },
-    "lsys12.wav": {
+    "lsys12": {
       "comment": "",
       "name": "BSFX Insects 1 (GIN)",
       "source": "",
       "url": ""
     },
-    "lsys13.wav": {
+    "lsys13": {
       "comment": "",
       "name": "BSFX Insects 2 (GIN)",
       "source": "",
       "url": ""
     },
-    "lsys14.wav": {
+    "lsys14": {
       "comment": "",
       "name": "Asagiri (Morning Fog) ",
       "source": "Higurashi no Naku Koro ni ",
       "url": "lnBTX88qHP4"
     },
-    "lsys15.wav": {
+    "lsys15": {
       "comment": "",
       "name": "BSFX Creepy Cicadas (GIN)",
       "source": "",
       "url": ""
     },
-    "lsys16.wav": {
+    "lsys16": {
       "comment": "",
       "name": "BSFX Frogs (GIN)",
       "source": "",
       "url": ""
     },
-    "lsys17.wav": {
+    "lsys17": {
       "comment": "",
       "name": "BSFX Telephone (GIN)",
       "source": "",
       "url": ""
     },
-    "lsys18.wav": {
+    "lsys18": {
       "comment": "",
       "name": "BSFX Creepy Rattle (GIN)",
       "source": "",
       "url": ""
     },
-    "lsys19.wav": {
+    "lsys19": {
       "comment": "",
       "name": "BSFX River (GIN)",
       "source": "",
       "url": ""
     },
-    "lsys20.wav": {
+    "lsys20": {
       "comment": "",
       "name": "BSFX Car and Traffic (GIN)",
       "source": "",
       "url": ""
     },
-    "lsys21.wav": {
+    "lsys21": {
       "comment": "",
       "name": "BSFX Train (GIN)",
       "source": "",
       "url": ""
     },
-    "lsys22.wav": {
+    "lsys22": {
       "comment": "",
       "name": "BSFX Birds (GIN)",
       "source": "",
       "url": ""
     },
-    "lsys23.wav": {
+    "lsys23": {
       "comment": "",
       "name": "BSFX Rain (GIN)",
       "source": "",
       "url": ""
     },
-    "lsys24.wav": {
+    "lsys24": {
       "comment": "",
       "name": "BSFX Typing (GIN)",
       "source": "",
       "url": ""
     },
-    "lsys25.wav": {
+    "lsys25": {
       "comment": "",
       "name": "BSFX Creepy Phasor (GIN)",
       "source": "",
       "url": ""
     },
-    "lsys26.wav": {
+    "lsys26": {
       "comment": "",
       "name": "BSFX Water (GIN)",
       "source": "",
       "url": ""
     },
-    "lsys27.wav": {
+    "lsys27": {
       "comment": "",
       "name": "BSFX Windy Rain (GIN)",
       "source": "",
       "url": ""
     },
-    "lsys28.wav": {
+    "lsys28": {
       "comment": "",
       "name": "BSFX Drums - Tata Start (GIN)",
       "source": "",
       "url": ""
     },
-    "lsys29.wav": {
+    "lsys29": {
       "comment": "",
       "name": "BSFX Car and Traffic (GIN)",
       "source": "",
       "url": ""
     },
-    "lsys30.wav": {
+    "lsys30": {
       "comment": "",
       "name": "BSFX Drippy Rain (GIN)",
       "source": "",
       "url": ""
     },
-    "lsys31.wav": {
+    "lsys31": {
       "comment": "",
       "name": "BSFX Jump Scare Knock (GIN)",
       "source": "",
       "url": ""
     },
-    "lsys32.wav": {
+    "lsys32": {
       "comment": "",
       "name": "BSFX Alarm - this track is never used (GIN)",
       "source": "",
       "url": ""
     },
-    "msys01.wav": {
+    "msys01": {
       "comment": "",
       "name": "Paris no Gogo (Afternoon in Paris) ",
       "source": "Higurashi no Naku Koro ni ",
       "url": "DEM-rr7zm9g"
     },
-    "msys02.wav": {
+    "msys02": {
       "comment": "",
       "name": "Hello! ",
       "source": "Higurashi no Naku Koro ni ",
       "url": "KC5S3T68n-w"
     },
-    "msys03.wav": {
+    "msys03": {
       "comment": "",
       "name": "Sutakorasassa (Helter Skelter) ",
       "source": "Higurashi no Naku Koro ni ",
       "url": "WY_-MK0XBGc"
     },
-    "msys04.wav": {
+    "msys04": {
       "comment": "",
       "name": "Digital Network ",
       "source": "Higurashi no Naku Koro ni ",
       "url": "WABneXoH9ls"
     },
-    "msys05.wav": {
+    "msys05": {
       "comment": "",
       "name": "Orenji iro no Toki (Orange colored Time) ",
       "source": "Higurashi no Naku Koro ni ",
       "url": "Yan1F5U63r8"
     },
-    "msys06.wav": {
+    "msys06": {
       "comment": "",
       "name": "Silence ",
       "source": "Higurashi no Naku Koro ni ",
       "url": "StjLCsfIbqQ"
     },
-    "msys07.wav": {
+    "msys07": {
       "comment": "",
       "name": "Doukutsu (Cave) ",
       "source": "Higurashi no Naku Koro ni ",
       "url": "C5NjBlR3Y58"
     },
-    "msys08.wav": {
+    "msys08": {
       "comment": "",
       "name": "Mazoku Kenkyuusho (Demonic Institute) ",
       "source": "Higurashi no Naku Koro ni ",
       "url": "d11-trxvJx4"
     },
-    "msys09.wav": {
+    "msys09": {
       "comment": "",
       "name": "Seijaku (Quietness) ",
       "source": "Higurashi no Naku Koro ni ",
       "url": "9IReJdqR-Hc"
     },
-    "msys11.wav": {
+    "msys11": {
       "comment": "",
       "name": "BSFX Cicadas (GIN)",
       "source": "",
       "url": ""
     },
-    "msys12.wav": {
+    "msys12": {
       "comment": "",
       "name": "BSFX Insects 1 (GIN)",
       "source": "",
       "url": ""
     },
-    "msys13.wav": {
+    "msys13": {
       "comment": "",
       "name": "BSFX Insects 2 (GIN)",
       "source": "",
       "url": ""
     },
-    "msys14.wav": {
+    "msys14": {
       "comment": "",
       "name": "Asagiri (Morning Fog) ",
       "source": "Higurashi no Naku Koro ni ",
       "url": "lnBTX88qHP4"
     },
-    "msys15.wav": {
+    "msys15": {
       "comment": "",
       "name": "Silver Mirror ",
       "source": "Higurashi no Naku Koro ni ",
       "url": "qTxmYXt2nfE"
     },
-    "msys16.wav": {
+    "msys16": {
       "comment": "",
       "name": "BSFX Creepy Cicadas (GIN)",
       "source": "",
       "url": ""
     },
-    "msys17.wav": {
+    "msys17": {
       "comment": "",
       "name": "Gear ",
       "source": "Higurashi no Naku Koro ni ",
       "url": "MX1hS7PwgRU"
     },
-    "msys18.wav": {
+    "msys18": {
       "comment": "",
       "name": "Dawn ",
       "source": "Higurashi no Naku Koro ni ",
       "url": "D4Vd1350-a8"
     },
-    "msys19.wav": {
+    "msys19": {
       "comment": "",
       "name": "Theme of owner ",
       "source": "Higurashi no Naku Koro ni ",
       "url": "Og3m-0CsePA"
     },
-    "msys20.wav": {
+    "msys20": {
       "comment": "",
       "name": "Fascism ",
       "source": "Higurashi no Naku Koro ni ",
       "url": "GhKrTag5Rbc"
     },
-    "msys21.wav": {
+    "msys21": {
       "comment": "",
       "name": "Rainy Days ",
       "source": "Higurashi no Naku Koro ni ",
       "url": "m18qsZ8jDyg"
     },
-    "msys22.wav": {
+    "msys22": {
       "comment": "",
       "name": "Dancers #1 ",
       "source": "Higurashi no Naku Koro ni ",
       "url": "127rv27P6AI"
     },
-    "msys23.wav": {
+    "msys23": {
       "comment": "",
       "name": "Dancers #7 ",
       "source": "Higurashi no Naku Koro ni ",
       "url": "OVFNCdodmTA"
     },
-    "msys24.wav": {
+    "msys24": {
       "comment": "",
       "name": "Snow #3 ＂First snow＂ ",
       "source": "Higurashi no Naku Koro ni ",
       "url": "QYQH4UjGuvY"
     },
-    "msys25.wav": {
+    "msys25": {
       "comment": "",
       "name": "Snow #4 ＂Frozen to death＂ ",
       "source": "Higurashi no Naku Koro ni ",
       "url": "5G_DfhL8XP0"
     },
-    "msys26.wav": {
+    "msys26": {
       "comment": "",
       "name": "Sunrise ",
       "source": "Higurashi no Naku Koro ni ",
       "url": "DvBwbtRxE0A"
     },
-    "msys27.wav": {
+    "msys27": {
       "comment": "",
       "name": "Tell a thing -piano solo ver.- (Radiata Alice Version) ",
       "source": "Higurashi no Naku Koro ni (07th_mod) ",
       "url": "XUNOms16TdY"
     },
-    "msys28.wav": {
+    "msys28": {
       "comment": "",
       "name": "Lie lies-lies lie ",
       "source": "Higurashi no Naku Koro ni ",
       "url": "9D1MewtrV1M"
     },
-    "msys29.wav": {
+    "msys29": {
       "comment": "",
       "name": "Heigen wo Iku (Going to the Plains) ",
       "source": "Higurashi no Naku Koro ni ",
       "url": "3DpmpxF_VzQ"
     },
-    "msys30.wav": {
+    "msys30": {
       "comment": "",
       "name": "Meditation (GIN)",
       "source": "",
       "url": ""
     },
-    "msys31.wav": {
+    "msys31": {
       "comment": "",
       "name": "Days of children #3 ",
       "source": "Higurashi no Naku Koro ni ",
       "url": "F8iQ9urzH-8"
     },
-    "msys32.wav": {
+    "msys32": {
       "comment": "",
       "name": "Dancers #5 ",
       "source": "Higurashi no Naku Koro ni ",
       "url": "nQe2zT8nicI"
     },
-    "msysmi.wav": {
+    "msysmi": {
       "comment": "",
       "name": "Spring Step (Mion) ",
       "source": "Higurashi no Naku Koro ni ",
       "url": "8gkVtW1QV6k"
     },
-    "msysre.wav": {
+    "msysre": {
       "comment": "",
       "name": "Lunch Time (Rena) ",
       "source": "Higurashi no Naku Koro ni ",
       "url": "oxvlQSktJpY"
     },
-    "msysri.wav": {
+    "msysri": {
       "comment": "",
       "name": "Baby's Walk (Rika) ",
       "source": "Higurashi no Naku Koro ni ",
       "url": "9kdlDI_Rb4A"
     },
-    "msyssa.wav": {
+    "msyssa": {
       "comment": "",
       "name": "Small Town (Satoko) ",
       "source": "Higurashi no Naku Koro ni ",

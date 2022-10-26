@@ -160,7 +160,10 @@ foreach (string path in query_paths)
         }
     }
 
-    results[path] = match;
+    // Do not include file extension in result
+    string filenameNoExt = Path.GetFileNameWithoutExtension(path);
+    string containingFolder = Path.GetDirectoryName(path);
+    results[Path.Combine(containingFolder, filenameNoExt)] = match;
 
     if (cnt >= maxToProcess)
     {
