@@ -51,7 +51,7 @@ void WriteResultsAsJSONFiles(Dictionary<string, VideoInfo?> results, string path
             relativePath = Path.Combine(relativePath, pathParts[i]);
         }
 
-        Console.WriteLine($"JsonPrefix: {jsonPrefix} RelativePath: {relativePath}");
+        // Console.WriteLine($"JsonPrefix: {jsonPrefix} RelativePath: {relativePath}");
 
         if (!jsonToBeWritten.TryGetValue(jsonPrefix, out BGMInfoDict _))
         {
@@ -143,16 +143,33 @@ foreach (string path in query_paths)
     // Do an exact match using the MD5 of the file
     if (!skipmd5 && md5Database.TryGetValue(queryMD5, out VideoInfo? info) && info != null)
     {
+        Console.WriteLine($"{path} EXACT match against {info}");
         match = info;
     }
 
-
     if (match == null)
     {
-        // Do an exact match using the MD5 of the file
-        if (md5Database.TryGetValue(queryMD5, out VideoInfo? info) && info != null)
+        // Do an approixmate match using the sound fingerprinting library
+        // NOTE: The audio fingerprinting library used does not handle short audio files (about less than one second?)
+        // Those short files will never be matched, so I've added MD5 matching as well.
+        foreach (var fingerPrinter in fingerPrinterCascade)
         {
-            match = info;
+            var queryResult = await fingerPrinter.QueryPath(pathToVideoInfo, path);
+
+            if (queryResult.BestMatch != null && queryResult.BestMatch.Audio != null)
+            {
+                if (queryResult.BestMatch.Audio.Confidence > .15)
+                {
+                    Console.WriteLine($"{queryResult.BestMatch.TrackId} match quality {queryResult.BestMatch.Audio.Confidence} QueryRelativeCoverage: {queryResult.BestMatch.Audio.QueryRelativeCoverage} DiscreteTrackCoverageLength: {queryResult.BestMatch.Audio.DiscreteTrackCoverageLength}");
+
+                    match = pathToVideoInfo[queryResult.BestMatch.TrackId];
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine($"IGNORING BAD MATCH: {queryResult.BestMatch.TrackId} match quality {queryResult.BestMatch.Audio.Confidence} QueryRelativeCoverage: {queryResult.BestMatch.Audio.QueryRelativeCoverage} DiscreteTrackCoverageLength: {queryResult.BestMatch.Audio.DiscreteTrackCoverageLength}");
+                }
+            }
         }
     }
 
@@ -160,6 +177,11 @@ foreach (string path in query_paths)
     string filenameNoExt = Path.GetFileNameWithoutExtension(path);
     string containingFolder = Path.GetDirectoryName(path);
     results[Path.Combine(containingFolder, filenameNoExt)] = match;
+
+    if (match == null)
+    {
+        Console.WriteLine($"WARNING: no match for {path}");
+    }
 
     if (cnt >= maxToProcess)
     {
