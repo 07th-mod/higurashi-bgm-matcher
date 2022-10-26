@@ -78,6 +78,7 @@ void WriteResultsAsJSONFiles(Dictionary<string, VideoInfo?> results, string path
 string reference_folder = "reference";
 bool force_rebuild = false;
 int? maxToProcess = null;
+bool skipmd5 = false;
 
 // Mapping of MD5 of file to VideoInfo
 Dictionary<string, VideoInfo> md5Database = new Dictionary<string, VideoInfo>();
@@ -100,11 +101,13 @@ Dictionary<string, VideoInfo> pathToVideoInfo = new Dictionary<string, VideoInfo
         VideoInfo info = new VideoInfo(path, path.Contains(youtube_folder) ? Mode.YOUTUBE_DL : Mode.CONSOLE);
         pathToVideoInfo[path] = info;
 
-        // Add MD5 to database
-        string md5 = EasyMD5.GetMD5(path);
-        md5Database[md5] = info;
-
-        Console.WriteLine($"MD5-ing {cnt2}/{database_paths.Count()} {path}");
+        if (!skipmd5)
+        {
+            // Add MD5 to database
+            string md5 = EasyMD5.GetMD5(path);
+            md5Database[md5] = info;
+            Console.WriteLine($"MD5-ing {cnt2}/{database_paths.Count()} {path}");
+        }
     }
 }
 
@@ -137,17 +140,10 @@ foreach (string path in query_paths)
 
     string queryMD5 = EasyMD5.GetMD5(path);
 
-    // Do an approixmate match using the sound fingerprinting library
-    // NOTE: The audio fingerprinting library used does not handle short audio files (about less than one second?)
-    // Those short files will never be matched, so I've added MD5 matching as well.
-    foreach (var fingerPrinter in fingerPrinterCascade)
+    // Do an exact match using the MD5 of the file
+    if (!skipmd5 && md5Database.TryGetValue(queryMD5, out VideoInfo? info) && info != null)
     {
-        var queryResult = await fingerPrinter.QueryPath(pathToVideoInfo, path);
-        if (queryResult.BestMatch != null)
-        {
-            match = pathToVideoInfo[queryResult.BestMatch.TrackId];
-            break;
-        }
+        match = info;
     }
 
 
