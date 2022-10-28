@@ -20,7 +20,7 @@
     },
     "ame": {
       "comment": "",
-      "name": "BSFX Rain (GIN)",
+      "name": "BSFX Rain",
       "source": "",
       "url": ""
     },
@@ -68,13 +68,13 @@
     },
     "denwa_m": {
       "comment": "",
-      "name": "BSFX Modern Phone Ringing (GIN)",
+      "name": "BSFX Modern Phone Ringing",
       "source": "",
       "url": ""
     },
     "heri": {
       "comment": "",
-      "name": "BSFX Helicopter (GIN)",
+      "name": "BSFX Helicopter",
       "source": "",
       "url": ""
     },
@@ -86,7 +86,7 @@
     },
     "higurashi": {
       "comment": "",
-      "name": "BSFX Higurashi (GIN)",
+      "name": "BSFX Higurashi",
       "source": "",
       "url": ""
     },
@@ -104,31 +104,31 @@
     },
     "jikuu": {
       "comment": "",
-      "name": "BSFX Jump Scare Knock (GIN)",
+      "name": "BSFX Jump Scare Knock",
       "source": "",
       "url": ""
     },
     "jikuu_a": {
       "comment": "",
-      "name": "BSFX Mangled String Instrument (GIN)",
+      "name": "BSFX Mangled String Instrument",
       "source": "",
       "url": ""
     },
     "kaze": {
       "comment": "",
-      "name": "BSFX Creepy Phasor (GIN)",
+      "name": "BSFX Creepy Phasor",
       "source": "",
       "url": ""
     },
     "lsys13": {
       "comment": "",
-      "name": "BSFX Cicadas with Rushing Water (GIN)",
+      "name": "BSFX Cicadas with Rushing Water",
       "source": "",
       "url": ""
     },
     "mati": {
       "comment": "",
-      "name": "BSFX Car and Traffic (GIN)",
+      "name": "BSFX Car and Traffic",
       "source": "",
       "url": ""
     },
@@ -188,7 +188,7 @@
     },
     "msys23": {
       "comment": "",
-      "name": "Dancers7 (GIN)",
+      "name": "Dancers7",
       "source": "",
       "url": "0Wb-tFSRCnU"
     },
@@ -200,13 +200,13 @@
     },
     "msys30": {
       "comment": "",
-      "name": "Meditation (GIN)",
+      "name": "Meditation",
       "source": "",
       "url": ""
     },
     "m_denwa8k": {
       "comment": "",
-      "name": "BSFX Old Fashioned Phone (GIN)",
+      "name": "BSFX Old Fashioned Phone",
       "source": "",
       "url": ""
     },
@@ -218,7 +218,7 @@
     },
     "rain": {
       "comment": "",
-      "name": "BSFX Rain (GIN)",
+      "name": "BSFX Rain",
       "source": "",
       "url": ""
     },
@@ -230,13 +230,13 @@
     },
     "semi": {
       "comment": "",
-      "name": "BSFX Cicadas (GIN)",
+      "name": "BSFX Cicadas",
       "source": "",
       "url": ""
     },
     "semi_r": {
       "comment": "",
-      "name": "BSFX Cicadas with Phasor (GIN)",
+      "name": "BSFX Cicadas with Phasor",
       "source": "",
       "url": ""
     },
@@ -254,19 +254,19 @@
     },
     "suzu": {
       "comment": "",
-      "name": "SFX Bells (GIN)",
+      "name": "SFX Bells",
       "source": "",
       "url": ""
     },
     "suzume": {
       "comment": "",
-      "name": "BSFX Birds (GIN)",
+      "name": "BSFX Birds",
       "source": "",
       "url": ""
     },
     "taip": {
       "comment": "",
-      "name": "BSFX Satisfying Typing Sounds (GIN)",
+      "name": "BSFX Satisfying Typing Sounds",
       "source": "",
       "url": ""
     },
@@ -284,25 +284,25 @@
     },
     "type": {
       "comment": "",
-      "name": "BSFX Muted Typing Sounds (GIN)",
+      "name": "BSFX Muted Typing Sounds",
       "source": "",
       "url": ""
     },
     "yabaisemi": {
       "comment": "",
-      "name": "BSFX High Pitched Phasor Cicadas (GIN)",
+      "name": "BSFX High Pitched Phasor Cicadas",
       "source": "",
       "url": ""
     },
     "yoru": {
       "comment": "",
-      "name": "BSFX Quieter Cicadas with Rushing Water (GIN)",
+      "name": "BSFX Quieter Cicadas with Rushing Water",
       "source": "",
       "url": ""
     },
     "yorumushi": {
       "comment": "",
-      "name": "BSFX Quieter Cicadas with Rushing Water (GIN)",
+      "name": "BSFX Quieter Cicadas with Rushing Water",
       "source": "",
       "url": ""
     }

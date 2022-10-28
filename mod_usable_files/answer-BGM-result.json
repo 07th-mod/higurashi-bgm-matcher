@@ -38,7 +38,7 @@
     },
     "ame": {
       "comment": "",
-      "name": "BSFX Drippy Rain (GIN)",
+      "name": "BSFX Drippy Rain",
       "source": "",
       "url": ""
     },
@@ -218,7 +218,7 @@
     },
     "higurashi": {
       "comment": "",
-      "name": "BSFX Cicadas (GIN)",
+      "name": "BSFX Cicadas",
       "source": "",
       "url": ""
     },
@@ -278,19 +278,19 @@
     },
     "iwakannnohatuga": {
       "comment": "",
-      "name": "REPLACEMENT for Germination of Discomfort (New)",
+      "name": "Germination of Discomfort (New)",
       "source": "",
       "url": ""
     },
     "jikuu": {
       "comment": "",
-      "name": "BSFX Mangled String Instrument (GIN)",
+      "name": "BSFX Mangled String Instrument",
       "source": "",
       "url": ""
     },
     "kaze": {
       "comment": "",
-      "name": "BSFX Slow Phasor Wind (New) dup of kaze",
+      "name": "BSFX Slow Phasor Wind (New)",
       "source": "",
       "url": ""
     },
@@ -320,13 +320,13 @@
     },
     "lsys13": {
       "comment": "",
-      "name": "BSFX Insects 2 (GIN)",
+      "name": "BSFX Insects 2",
       "source": "",
       "url": ""
     },
     "mati": {
       "comment": "",
-      "name": "BSFX Car and Traffic (GIN)",
+      "name": "BSFX Car and Traffic",
       "source": "",
       "url": ""
     },
@@ -344,7 +344,7 @@
     },
     "mion": {
       "comment": "",
-      "name": "msysmi REPLACEMENT Upbeat Rock Music (New)",
+      "name": "Upbeat Rock Music (New)",
       "source": "",
       "url": ""
     },
@@ -386,7 +386,7 @@
     },
     "rain": {
       "comment": "",
-      "name": "BSFX Rain (GIN)",
+      "name": "BSFX Rain",
       "source": "",
       "url": ""
     },
@@ -410,13 +410,13 @@
     },
     "semi": {
       "comment": "",
-      "name": "BSFX Insects 1 (GIN)",
+      "name": "BSFX Insects 1",
       "source": "",
       "url": ""
     },
     "semi_r": {
       "comment": "",
-      "name": "BSFX Creepy Cicadas (GIN)",
+      "name": "BSFX Creepy Cicadas",
       "source": "",
       "url": ""
     },
@@ -452,13 +452,13 @@
     },
     "suzu": {
       "comment": "",
-      "name": "BSFX Creepy Rattle (GIN)",
+      "name": "BSFX Creepy Rattle",
       "source": "",
       "url": ""
     },
     "suzume": {
       "comment": "",
-      "name": "BSFX Birds (GIN)",
+      "name": "BSFX Birds",
       "source": "",
       "url": ""
     },
@@ -482,7 +482,7 @@
     },
     "taip": {
       "comment": "",
-      "name": "BSFX Typing (GIN)",
+      "name": "BSFX Typing",
       "source": "",
       "url": ""
     },
@@ -518,7 +518,7 @@
     },
     "yabaisemi": {
       "comment": "",
-      "name": "BSFX Slow Phasor Wind (New) dup of kaze",
+      "name": "BSFX Slow Phasor Wind (New)",
       "source": "",
       "url": ""
     },
@@ -530,13 +530,13 @@
     },
     "yoru": {
       "comment": "",
-      "name": "BSFX Insects 2 (GIN)",
+      "name": "BSFX Insects 2",
       "source": "",
       "url": ""
     },
     "yorumushi": {
       "comment": "",
-      "name": "BSFX Insects 2 (GIN)",
+      "name": "BSFX Insects 2",
       "source": "",
       "url": ""
     },
@@ -554,7 +554,7 @@
     },
     "z01_iwakan": {
       "comment": "",
-      "name": "REPLACEMENT for Germination of Discomfort (New)",
+      "name": "Germination of Discomfort (New)",
       "source": "",
       "url": ""
     },
