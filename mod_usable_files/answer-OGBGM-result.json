@@ -2,20 +2,20 @@
   "bgmList": {
     "1": {
       "comment": "",
-      "name": "Paris no Gogo (Afternoon in Paris) ",
-      "source": "Higurashi no Naku Koro ni ",
+      "name": "Paris no Gogo (Afternoon in Paris)",
+      "source": "Higurashi no Naku Koro ni",
       "url": "DEM-rr7zm9g"
     },
     "3": {
       "comment": "",
-      "name": "Sutakorasassa (Helter Skelter) ",
-      "source": "Higurashi no Naku Koro ni ",
+      "name": "Sutakorasassa (Helter Skelter)",
+      "source": "Higurashi no Naku Koro ni",
       "url": "WY_-MK0XBGc"
     },
     "4": {
       "comment": "",
-      "name": "Digital Network ",
-      "source": "Higurashi no Naku Koro ni ",
+      "name": "Digital Network",
+      "source": "Higurashi no Naku Koro ni",
       "url": "WABneXoH9ls"
     },
     "ame": {
@@ -26,44 +26,44 @@
     },
     "attack": {
       "comment": "",
-      "name": "Assault Operations ",
-      "source": "Higurashi no Naku Koro ni Kai ： The Lost Tracks ",
+      "name": "Assault Operations",
+      "source": "Higurashi no Naku Koro ni Kai ： The Lost Tracks",
       "url": "4QfNMaiM8Og"
     },
     "b01_akarui": {
       "comment": "",
-      "name": "Paris no Gogo (Afternoon in Paris) ",
-      "source": "Higurashi no Naku Koro ni ",
+      "name": "Paris no Gogo (Afternoon in Paris)",
+      "source": "Higurashi no Naku Koro ni",
       "url": "DEM-rr7zm9g"
     },
     "b03_dame": {
       "comment": "",
-      "name": "Sutakorasassa (Helter Skelter) ",
-      "source": "Higurashi no Naku Koro ni ",
+      "name": "Sutakorasassa (Helter Skelter)",
+      "source": "Higurashi no Naku Koro ni",
       "url": "WY_-MK0XBGc"
     },
     "b04_bukatu": {
       "comment": "",
-      "name": "Digital Network ",
-      "source": "Higurashi no Naku Koro ni ",
+      "name": "Digital Network",
+      "source": "Higurashi no Naku Koro ni",
       "url": "WABneXoH9ls"
     },
     "b11_rika": {
       "comment": "",
-      "name": "Baby's Walk (Rika) ",
-      "source": "Higurashi no Naku Koro ni ",
+      "name": "Baby's Walk (Rika)",
+      "source": "Higurashi no Naku Koro ni",
       "url": "9kdlDI_Rb4A"
     },
     "b11_rika_oldver": {
       "comment": "",
-      "name": "Baby's Walk (Rika) ",
-      "source": "Higurashi no Naku Koro ni ",
+      "name": "Baby's Walk (Rika)",
+      "source": "Higurashi no Naku Koro ni",
       "url": "9kdlDI_Rb4A"
     },
     "BIGBEAR": {
       "comment": "",
-      "name": "Big Bear ",
-      "source": "Higurashi no Naku Koro ni Kai ",
+      "name": "Big Bear",
+      "source": "Higurashi no Naku Koro ni Kai",
       "url": "i2bp9VpmSCM"
     },
     "denwa_m": {
@@ -80,8 +80,8 @@
     },
     "hgrs03": {
       "comment": "",
-      "name": "Frozen memories ",
-      "source": "Higurashi no Naku Koro ni Kai ",
+      "name": "Frozen memories",
+      "source": "Higurashi no Naku Koro ni Kai",
       "url": "gR6aS2m9HEE"
     },
     "higurashi": {
@@ -134,56 +134,56 @@
     },
     "mion": {
       "comment": "",
-      "name": "Spring Step (Mion) ",
-      "source": "Higurashi no Naku Koro ni ",
+      "name": "Spring Step (Mion)",
+      "source": "Higurashi no Naku Koro ni",
       "url": "8gkVtW1QV6k"
     },
     "msys01": {
       "comment": "",
-      "name": "Paris no Gogo (Afternoon in Paris) ",
-      "source": "Higurashi no Naku Koro ni ",
+      "name": "Paris no Gogo (Afternoon in Paris)",
+      "source": "Higurashi no Naku Koro ni",
       "url": "DEM-rr7zm9g"
     },
     "msys03": {
       "comment": "",
-      "name": "Sutakorasassa (Helter Skelter) ",
-      "source": "Higurashi no Naku Koro ni ",
+      "name": "Sutakorasassa (Helter Skelter)",
+      "source": "Higurashi no Naku Koro ni",
       "url": "WY_-MK0XBGc"
     },
     "msys06": {
       "comment": "",
-      "name": "Silence ",
-      "source": "Higurashi no Naku Koro ni ",
+      "name": "Silence",
+      "source": "Higurashi no Naku Koro ni",
       "url": "StjLCsfIbqQ"
     },
     "msys07": {
       "comment": "",
-      "name": "Doukutsu (Cave) ",
-      "source": "Higurashi no Naku Koro ni ",
+      "name": "Doukutsu (Cave)",
+      "source": "Higurashi no Naku Koro ni",
       "url": "C5NjBlR3Y58"
     },
     "msys08": {
       "comment": "",
-      "name": "Mazoku Kenkyuusho (Demonic Institute) ",
-      "source": "Higurashi no Naku Koro ni ",
+      "name": "Mazoku Kenkyuusho (Demonic Institute)",
+      "source": "Higurashi no Naku Koro ni",
       "url": "d11-trxvJx4"
     },
     "msys09": {
       "comment": "",
-      "name": "Seijaku (Quietness) ",
-      "source": "Higurashi no Naku Koro ni ",
+      "name": "Seijaku (Quietness)",
+      "source": "Higurashi no Naku Koro ni",
       "url": "9IReJdqR-Hc"
     },
     "msys15": {
       "comment": "",
-      "name": "Silver Mirror ",
-      "source": "Higurashi no Naku Koro ni ",
+      "name": "Silver Mirror",
+      "source": "Higurashi no Naku Koro ni",
       "url": "qTxmYXt2nfE"
     },
     "msys17": {
       "comment": "",
-      "name": "Gear ",
-      "source": "Higurashi no Naku Koro ni ",
+      "name": "Gear",
+      "source": "Higurashi no Naku Koro ni",
       "url": "MX1hS7PwgRU"
     },
     "msys23": {
@@ -212,8 +212,8 @@
     },
     "primal-beat-of-horrow_T": {
       "comment": "",
-      "name": "Primal Beat of Horrow ",
-      "source": "Higurashi no Naku Koro ni Kai ： The Lost Tracks ",
+      "name": "Primal Beat of Horrow",
+      "source": "Higurashi no Naku Koro ni Kai ： The Lost Tracks",
       "url": "KZuQ8WyfurE"
     },
     "rain": {
@@ -224,8 +224,8 @@
     },
     "rika": {
       "comment": "",
-      "name": "Baby's Walk (Rika) ",
-      "source": "Higurashi no Naku Koro ni ",
+      "name": "Baby's Walk (Rika)",
+      "source": "Higurashi no Naku Koro ni",
       "url": "9kdlDI_Rb4A"
     },
     "semi": {
@@ -248,8 +248,8 @@
     },
     "song_you": {
       "comment": "",
-      "name": "You (vocals) ",
-      "source": "Unknown ",
+      "name": "You (vocals)",
+      "source": "Unknown",
       "url": "jdY1t1utvrI"
     },
     "suzu": {
@@ -272,14 +272,14 @@
     },
     "tsukisanbika": {
       "comment": "",
-      "name": "Moon -Cruelness⇔Tribute- Song ",
-      "source": "Higurashi no Naku Koro ni Kai ： The Lost Tracks ",
+      "name": "Moon -Cruelness⇔Tribute- Song",
+      "source": "Higurashi no Naku Koro ni Kai ： The Lost Tracks",
       "url": "vrxGUuia50M"
     },
     "tsutaetaikoto": {
       "comment": "",
-      "name": "Things I Want to Convey (Tsutaetai Koto⧸伝えたいこと) ",
-      "source": "Higurashi no Naku Koro ni Kai ",
+      "name": "Things I Want to Convey (Tsutaetai Koto⧸伝えたいこと)",
+      "source": "Higurashi no Naku Koro ni Kai",
       "url": "otdpzAe9cQo"
     },
     "type": {

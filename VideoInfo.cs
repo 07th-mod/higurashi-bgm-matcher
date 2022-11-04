@@ -25,9 +25,9 @@ namespace Info
                     {
                         Regex re = new Regex(@"(.*)\s*-\s*(.*)\s*\[(.*)\].*");
                         Match match = re.Match(filenameFixed);
-                        name = match.Groups[1].Value;
-                        source = match.Groups[2].Value;
-                        url = match.Groups[3].Value;
+                        name = match.Groups[1].Value.Trim();
+                        source = match.Groups[2].Value.Trim();
+                        url = match.Groups[3].Value.Trim();
                     }
                     break;
 
@@ -35,10 +35,10 @@ namespace Info
                     {
                         Regex re = new Regex(@"([^ ]*)\s+(.*?)(\s*\[(.{11})\])?\..*");
                         Match match = re.Match(filenameFixed);
-                        string filename = match.Groups[1].Value;
-                        name = $"{match.Groups[2].Value}";
-                        source = "";
-                        url = "";
+                        string filename = match.Groups[1].Value.Trim();
+                        name = $"{match.Groups[2].Value}".Trim();
+                        source = "".Trim();
+                        url = "".Trim();
 
                         // URL is optional
                         // Wihtout URL: "semi_r BSFX Cicadas with Phasor (GIN).wav"
