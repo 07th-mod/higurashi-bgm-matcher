@@ -74,11 +74,18 @@ void WriteResultsAsJSONFiles(Dictionary<string, VideoInfo?> results, string path
     }
 }
 
+
 // This folder contains named music files which are used to build the database
 string reference_folder = "reference";
 bool force_rebuild = false;
 int? maxToProcess = null;
 bool skipmd5 = false;
+
+var efp = new EasyFingerPrinting("test", "database_mario", force_rebuild, maxToProcess);
+
+await efp.LoadOrRegenerate();
+
+return;
 
 // Mapping of MD5 of file to VideoInfo
 Dictionary<string, VideoInfo> md5Database = new Dictionary<string, VideoInfo>();

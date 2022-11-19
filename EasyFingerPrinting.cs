@@ -2,6 +2,7 @@ using System.Text;
 using SoundFingerprinting.Audio;
 using SoundFingerprinting.Builder;
 using SoundFingerprinting.Data;
+using SoundFingerprinting.Emy;
 using SoundFingerprinting.InMemory;
 using SoundFingerprinting.Query;
 
@@ -22,7 +23,15 @@ namespace Info
             this.directoryToSearch = directoryToSearch;
             this.deserPath = deserPath;
             this.modelService = new InMemoryModelService(); // store fingerprints in RAM
-            this.audioService = new SoundFingerprintingAudioService(); // default audio library
+            bool useFFMPEG = true;
+            if(useFFMPEG)
+            {
+                this.audioService = new FFmpegAudioService();
+            }
+            else
+            {
+                this.audioService = new SoundFingerprintingAudioService(); // default audio library
+            }
             this.maxToProcess = maxToProcess;
         }
 
