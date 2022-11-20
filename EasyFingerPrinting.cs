@@ -96,12 +96,13 @@ namespace Info
             // Since such files aren't useful anyway, skip them.
             if (!avHashes.IsEmpty)
             {
-                Console.WriteLine($"WARNING: Skipped file {path} because it generated no audio hashes (too short?)");
-
                 // store hashes in the database for later retrieval
                 modelService.Insert(track, avHashes);
             }
-
+            else
+            {
+                Console.WriteLine($"WARNING: Skipped file {path} because it generated no audio hashes (too short?)");
+            }
         }
 
         public async Task<AVQueryResult> QueryPath(string path)
