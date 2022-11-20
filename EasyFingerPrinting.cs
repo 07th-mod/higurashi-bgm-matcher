@@ -87,7 +87,7 @@ namespace Info
             modelService.Insert(track, avHashes);
         }
 
-        public async Task<AVQueryResult> QueryPath(Dictionary<string, VideoInfo> pathToVideoInfo, string path)
+        public async Task<AVQueryResult> QueryPath(string path)
         {
             // For some reason, if this is not specified, can produce poor quality matches?
             float secondsToAnalyse = 30;

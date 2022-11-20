@@ -156,7 +156,7 @@ foreach (string path in query_paths)
         // Those short files will never be matched, so I've added MD5 matching as well.
         foreach (var fingerPrinter in fingerPrinterCascade)
         {
-            var queryResult = await fingerPrinter.QueryPath(pathToVideoInfo, path);
+            var queryResult = await fingerPrinter.QueryPath(path);
 
             if (queryResult.BestMatch != null && queryResult.BestMatch.Audio != null)
             {
