@@ -107,21 +107,23 @@ bool skipmd5 = false;
 Dictionary<string, VideoInfo> md5Database = new Dictionary<string, VideoInfo>();
 
 EasyFingerPrinting[] fingerPrinterCascade = new EasyFingerPrinting[] {
-    new EasyFingerPrinting(Path.Combine(reference_folder, "mario"), "database_mario", force_rebuild, maxToProcess),
-    new EasyFingerPrinting(Path.Combine(reference_folder, "manual_matches"), "database_manual_matches", force_rebuild, maxToProcess),
-    new EasyFingerPrinting(Path.Combine(reference_folder, "console_hou"), "database_console_hou", force_rebuild, maxToProcess),
+    new EasyFingerPrinting(Path.Combine(reference_folder, "youtube_preferred"), "db_youtube_preferred", force_rebuild, maxToProcess),
+    new EasyFingerPrinting(Path.Combine(reference_folder, "manual_matches"), "db_manual_matches", force_rebuild, maxToProcess),
+    new EasyFingerPrinting(Path.Combine(reference_folder, "console_hou"), "db_console_hou", force_rebuild, maxToProcess),
+    new EasyFingerPrinting(Path.Combine(reference_folder, "youtube_extra"), "db_youtube_extra", force_rebuild, maxToProcess),
 };
 
 Console.WriteLine($"--------------- Building Filename and MD5 List [{reference_folder}]-----------------");
 Dictionary<string, VideoInfo> pathToVideoInfo = new Dictionary<string, VideoInfo>();
 {
     int cnt2 = 0;
-    string youtube_folder = "mario";
     string[] database_paths = Directory.GetFiles(reference_folder, "*.*", SearchOption.AllDirectories);
     foreach (string path in database_paths)
     {
         cnt2++;
-        VideoInfo info = new VideoInfo(path, path.Contains(youtube_folder) ? Mode.YOUTUBE_DL : Mode.CONSOLE);
+
+        string no_top_level = Path.GetRelativePath(reference_folder, path);
+        VideoInfo info = new VideoInfo(path, no_top_level.ToLower().StartsWith("youtube") ? Mode.YOUTUBE_DL : Mode.CONSOLE);
         pathToVideoInfo[path] = info;
 
         if (!skipmd5)
