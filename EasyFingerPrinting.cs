@@ -92,8 +92,16 @@ namespace Info
                 throw e;
             }
 
-            // store hashes in the database for later retrieval
-            modelService.Insert(track, avHashes);
+            // There is a bug where snapshot won't load if a file with no hashes is snapshotted.
+            // Since such files aren't useful anyway, skip them.
+            if (!avHashes.IsEmpty)
+            {
+                Console.WriteLine($"WARNING: Skipped file {path} because it generated no audio hashes (too short?)");
+
+                // store hashes in the database for later retrieval
+                modelService.Insert(track, avHashes);
+            }
+
         }
 
         public async Task<AVQueryResult> QueryPath(string path)
