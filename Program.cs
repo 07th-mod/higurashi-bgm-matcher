@@ -117,15 +117,9 @@ foreach (var fingerPrinter in fingerPrinterCascade)
     await fingerPrinter.LoadOrRegenerate();
 }
 
-
 string query_folder = "mod";
 Console.WriteLine($"--------------- Begin querying [{query_folder}]-----------------");
 string[] query_paths = Directory.GetFiles(query_folder, "*.*", SearchOption.AllDirectories); ;
-
-// Dictionary<string, VideoInfo?> results = new Dictionary<string, VideoInfo?> {
-//     {"mod\\answer\\BGM\\03_cele.wav", new VideoInfo("test", "source", "url")},
-//     {"mod\\question\\BGM\\02_cele.wav", new VideoInfo("testa", "sourcea", "urla")},
-// };
 
 Dictionary<string, VideoInfo?> results = new Dictionary<string, VideoInfo?>();
 
