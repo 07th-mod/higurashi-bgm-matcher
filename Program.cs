@@ -149,6 +149,8 @@ foreach (string path in query_paths)
 
     if (match == null)
     {
+        VideoInfo badMatch = null;
+
         // Do an approixmate match using the sound fingerprinting library
         // NOTE: The audio fingerprinting library used does not handle short audio files (about less than one second?)
         // Those short files will never be matched, so I've added MD5 matching as well.
@@ -158,18 +160,31 @@ foreach (string path in query_paths)
 
             if (queryResult.BestMatch != null && queryResult.BestMatch.Audio != null)
             {
-                if (queryResult.BestMatch.Audio.Confidence > .15)
-                {
-                    Console.WriteLine($"{queryResult.BestMatch.TrackId} match quality {queryResult.BestMatch.Audio.Confidence} QueryRelativeCoverage: {queryResult.BestMatch.Audio.QueryRelativeCoverage} DiscreteTrackCoverageLength: {queryResult.BestMatch.Audio.DiscreteTrackCoverageLength}");
+                var confidence = queryResult.BestMatch.Audio.Confidence;
+                var possibleMatch = pathToVideoInfo[queryResult.BestMatch.TrackId];
 
-                    match = pathToVideoInfo[queryResult.BestMatch.TrackId];
+                if (badMatch == null)
+                {
+                    badMatch = possibleMatch;
+                }
+
+                if (confidence > .10)
+                {
+                    Console.WriteLine($"{queryResult.BestMatch.TrackId} match quality {confidence} QueryRelativeCoverage: {queryResult.BestMatch.Audio.QueryRelativeCoverage} DiscreteTrackCoverageLength: {queryResult.BestMatch.Audio.DiscreteTrackCoverageLength}");
+
+                    match = possibleMatch;
                     break;
                 }
                 else
                 {
-                    Console.WriteLine($"IGNORING BAD MATCH: {queryResult.BestMatch.TrackId} match quality {queryResult.BestMatch.Audio.Confidence} QueryRelativeCoverage: {queryResult.BestMatch.Audio.QueryRelativeCoverage} DiscreteTrackCoverageLength: {queryResult.BestMatch.Audio.DiscreteTrackCoverageLength}");
+                    Console.WriteLine($"IGNORING BAD MATCH: {queryResult.BestMatch.TrackId} match quality {confidence} QueryRelativeCoverage: {queryResult.BestMatch.Audio.QueryRelativeCoverage} DiscreteTrackCoverageLength: {queryResult.BestMatch.Audio.DiscreteTrackCoverageLength}");
                 }
             }
+        }
+
+        if (match == null && badMatch != null)
+        {
+            match = badMatch;
         }
     }
 
