@@ -2,8 +2,10 @@
 .vscode/
 old/
 mod/
+mod.wav/
 original/
 reference/
+reference.wav/
 snapshot/
 
 ## Ignore Visual Studio temporary files, build results, and

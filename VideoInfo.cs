@@ -3,13 +3,13 @@ using System.Text.RegularExpressions;
 namespace Info
 {
 
-    enum Mode
+    public enum Mode
     {
         YOUTUBE_DL,
         CONSOLE
     }
 
-    class VideoInfo
+    public class VideoInfo
     {
         public string name;
         public string source;
@@ -41,8 +41,8 @@ namespace Info
                         url = "".Trim();
 
                         // URL is optional
-                        // Wihtout URL: "semi_r BSFX Cicadas with Phasor (GIN).wav"
-                        // With URL:    "msys23 Dancers7 (GIN) [0Wb-tFSRCnU].wav"
+                        // Wihtout URL: "semi_r BSFX Cicadas with Phasor (GIN).ogg"
+                        // With URL:    "msys23 Dancers7 (GIN) [0Wb-tFSRCnU].ogg"
                         if (match.Groups.Count >= 5)
                         {
                             url = match.Groups[4].Value;

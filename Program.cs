@@ -1,7 +1,9 @@
-﻿using Info;
+﻿using CsvHelper;
+using Info;
+using Matcher.Override;
 using MODJSONClasses;
 using Newtonsoft.Json;
-using System.Collections.Generic;
+using System.Globalization;
 using System.Text;
 
 void WriteResultsAsCSV(Dictionary<string, VideoInfo?> results, string outputPath)
@@ -74,6 +76,27 @@ void WriteResultsAsJSONFiles(Dictionary<string, VideoInfo?> results, string path
     }
 }
 
+string GetPathWithoutExtension(string path)
+{
+    string filenameNoExt = Path.GetFileNameWithoutExtension(path);
+    string containingFolder = Path.GetDirectoryName(path);
+
+    return Path.Combine(containingFolder, filenameNoExt);
+}
+
+Dictionary<string, Override> pathToOverrideDictionary = new Dictionary<string, Override>();
+
+using (var reader = new StreamReader("overrides.csv"))
+using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
+{
+    var records = csv.GetRecords<Override>();
+
+    foreach (var r in records)
+    {
+        pathToOverrideDictionary[r.path] = r;
+    }
+}
+
 // This folder contains named music files which are used to build the database
 string reference_folder = "reference";
 bool force_rebuild = false;
@@ -114,6 +137,7 @@ Dictionary<string, VideoInfo> pathToVideoInfo = new Dictionary<string, VideoInfo
 Console.WriteLine($"--------------- Loading/Generating Database-----------------");
 foreach (var fingerPrinter in fingerPrinterCascade)
 {
+    Console.WriteLine($"Loading or regenerating database {fingerPrinter.GetDirectoryName()}");
     await fingerPrinter.LoadOrRegenerate();
 }
 
@@ -132,13 +156,30 @@ foreach (string path in query_paths)
     // Search through each database looking for a match
     VideoInfo? match = null;
 
-    string queryMD5 = EasyMD5.GetMD5(path);
-
-    // Do an exact match using the MD5 of the file
-    if (!skipmd5 && md5Database.TryGetValue(queryMD5, out VideoInfo? info) && info != null)
+    // Check overrides first
+    if (match == null)
     {
-        Console.WriteLine($"{path} EXACT match against {info}");
-        match = info;
+        string no_top_level = Path.GetRelativePath(query_folder, path);
+        string no_ext = GetPathWithoutExtension(no_top_level);
+        string fwd_slash = no_ext.Replace("\\", "/");
+
+        if (pathToOverrideDictionary.TryGetValue(fwd_slash, out Override ovr))
+        {
+            match = ovr.ToVideoInfo();
+            Console.WriteLine($"Got match {fwd_slash}: {ovr.name}");
+        }
+    }
+
+    if (match == null)
+    {
+        string queryMD5 = EasyMD5.GetMD5(path);
+
+        // Do an exact match using the MD5 of the file
+        if (!skipmd5 && md5Database.TryGetValue(queryMD5, out VideoInfo? info) && info != null)
+        {
+            Console.WriteLine($"{path} EXACT match against {info}");
+            match = info;
+        }
     }
 
     if (match == null)
@@ -183,9 +224,7 @@ foreach (string path in query_paths)
     }
 
     // Do not include file extension in result
-    string filenameNoExt = Path.GetFileNameWithoutExtension(path);
-    string containingFolder = Path.GetDirectoryName(path);
-    results[Path.Combine(containingFolder, filenameNoExt)] = match;
+    results[GetPathWithoutExtension(path)] = match;
 
     if (match == null)
     {

@@ -9,6 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="30.0.1" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="soundfingerprinting" Version="8.16.2" />
     <PackageReference Include="SoundFingerprinting.Emy" Version="8.16.2" />
