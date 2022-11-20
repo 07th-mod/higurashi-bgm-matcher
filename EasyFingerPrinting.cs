@@ -77,11 +77,20 @@ namespace Info
             var track = new TrackInfo(id, title, artist);
 
             // create fingerprints
-            var avHashes = await FingerprintCommandBuilder.Instance
-                                        .BuildFingerprintCommand()
-                                        .From(path)
-                                        .UsingServices(audioService)
-                                        .Hash();
+            AVHashes avHashes = null;
+            try
+            {
+                avHashes = await FingerprintCommandBuilder.Instance
+                                            .BuildFingerprintCommand()
+                                            .From(path)
+                                            .UsingServices(audioService)
+                                            .Hash();
+            }
+            catch (NullReferenceException e)
+            {
+                Console.WriteLine($"ERROR: probably missing ffmpeg binary. On Windows, please put the binaries at FFmpeg\\bin\\x64 (including dll files) from https://github.com/GyanD/codexffmpeg/releases/download/4.4.1/ffmpeg-4.4.1-full_build-shared.7z. On Unix-like OS, ensure ffmpeg is installed (probably need version 4.x.x): {e}");
+                throw e;
+            }
 
             // store hashes in the database for later retrieval
             modelService.Insert(track, avHashes);
