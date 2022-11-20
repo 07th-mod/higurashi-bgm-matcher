@@ -34,7 +34,7 @@ namespace Info
             }
             this.maxToProcess = maxToProcess;
         }
-
+        public string GetDirectoryName() => directoryToSearch;
         public async Task LoadOrRegenerate()
         {
             if (rebuild || !Directory.Exists(deserPath))
