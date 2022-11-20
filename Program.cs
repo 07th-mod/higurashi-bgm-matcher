@@ -84,6 +84,34 @@ string GetPathWithoutExtension(string path)
     return Path.Combine(containingFolder, filenameNoExt);
 }
 
+// Use this in case you convert the files in the `references/manual_matches` folder in a way they are no longer 100% identical to files in the `mod` folder
+// Otherwise you shouldn't need to use this
+void regenerate()
+{
+    string[] manual = Directory.GetFiles("reference\\manual_matches", "*.*", SearchOption.AllDirectories);
+
+    string mod_folder = "mod";
+
+    foreach (var pathx in manual)
+    {
+        var path = pathx.Replace("reference\\manual_matches\\", "");
+        var folder = Path.GetDirectoryName(path);
+        var filename = Path.GetFileName(path);
+        var filename_original = filename.Split(" ", 2)[0];
+        var path_original = Path.Combine(mod_folder, Path.Combine(folder, filename_original + ".opus"));
+        Console.WriteLine($"folder: {folder} filename: {filename_original} path: {path_original}");
+
+        if (!File.Exists(path_original))
+        {
+            Console.WriteLine($"ERROR: {path_original} doesn't exist!");
+        }
+
+        var output_path = Path.Combine("c:\\temp\\output_higurashi", path);
+        Directory.CreateDirectory(Path.GetDirectoryName(output_path));
+        File.Copy(path_original, output_path);
+    }
+}
+
 Dictionary<string, Override> pathToOverrideDictionary = new Dictionary<string, Override>();
 
 using (var reader = new StreamReader("overrides.csv"))
