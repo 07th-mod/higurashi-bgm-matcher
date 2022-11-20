@@ -113,7 +113,7 @@ namespace Info
                                             .BuildQueryCommand()
                                             //.From(path)
                                             .From(path, secondsToAnalyse, startAtSecond)
-                                            .UsingServices(modelService)
+                                            .UsingServices(modelService, audioService)
                                             .Query();
         }
     }
