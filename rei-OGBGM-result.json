@@ -1,0 +1,88 @@
+{
+  "bgmList": {
+    "1": {
+      "comment": "",
+      "name": "Paris no Gogo (Afternoon in Paris)",
+      "source": "Higurashi no Naku Koro ni",
+      "url": "DEM-rr7zm9g"
+    },
+    "4": {
+      "comment": "",
+      "name": "Digital Network",
+      "source": "Higurashi no Naku Koro ni",
+      "url": "WABneXoH9ls"
+    },
+    "ame_9": {
+      "comment": "",
+      "name": "BSFX Rain",
+      "source": "",
+      "url": ""
+    },
+    "denwa": {
+      "comment": "",
+      "name": "- BSFX Digital Phone Ring (Rei)",
+      "source": "",
+      "url": ""
+    },
+    "higurashi": {
+      "comment": "",
+      "name": "BSFX Higurashi",
+      "source": "",
+      "url": ""
+    },
+    "higurasi": {
+      "comment": "",
+      "name": "BSFX Cicadas",
+      "source": "",
+      "url": ""
+    },
+    "kaze": {
+      "comment": "",
+      "name": "BSFX Creepy Phasor",
+      "source": "",
+      "url": ""
+    },
+    "keihou": {
+      "comment": "",
+      "name": "- BSFX Siren (Rei)",
+      "source": "",
+      "url": ""
+    },
+    "mati": {
+      "comment": "",
+      "name": "BSFX Busy Road",
+      "source": "",
+      "url": ""
+    },
+    "rika": {
+      "comment": "",
+      "name": "Baby's Walk (Rika)",
+      "source": "Higurashi no Naku Koro ni",
+      "url": "9kdlDI_Rb4A"
+    },
+    "semi": {
+      "comment": "",
+      "name": "BSFX Cicadas",
+      "source": "",
+      "url": ""
+    },
+    "semi_r": {
+      "comment": "",
+      "name": "BSFX Cicadas with Phasor",
+      "source": "",
+      "url": ""
+    },
+    "suzume": {
+      "comment": "",
+      "name": "- BSFX Birds Chirping (Rei)",
+      "source": "",
+      "url": ""
+    },
+    "yoru": {
+      "comment": "",
+      "name": "BSFX Quieter Cicadas with Rushing Water",
+      "source": "",
+      "url": ""
+    }
+  }
+}
