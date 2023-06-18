@@ -44,13 +44,9 @@ Note that all the question arcs have the same BGM files, and all the answer arcs
 ## Usage
 
 1. Clone this repo
-2. Download [this archive containing bgm, and pre-generated matching databases](https://1drv.ms/u/s!Ar-lAVeetlqhhL9a7ftu_Si8_wnDsA?e=pyaZ6k), and extract it to the root of the repository
+2. Download [this archive containing bgm, and pre-generated matching databases](https://1drv.ms/u/s!Ar-lAVeetlqhhNcW39oy9Vyj_rLo3Q?e=RgJc8A), and extract it to the root of the repository
 3. If you are on a Unix-like OS, make sure that FFMPeg 4.x.x is installed. I have not tested Unix, you may have problems running on Unix.
 4. Add any additional files you want to match to the `mod` folder.
 5. Run the program with `dotnet run`. You'll need .net 6 or higher installed.
 6. If you add new files to the folders in `reference/FOLDER_NAME`, to regenerate the database, delete the folder called `db_FOLDER_NAME`
 7. To update the stored list of names, copy all the .json and .csv files into the `mod_usable_files` folder
-
-## TODO
-
-- Add OST Remake BGM to matching
