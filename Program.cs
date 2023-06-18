@@ -254,7 +254,13 @@ foreach (string path in query_paths)
     }
 
     // Do not include file extension in result
-    results[GetPathWithoutExtension(path)] = match;
+    string key = GetPathWithoutExtension(path);
+    if (results.TryGetValue(key, out VideoInfo value))
+    {
+        throw new Exception($"Error (developer error?): same bgm [{key}] added twice {value}");
+    }
+
+    results[key] = match;
 
     if (match == null)
     {

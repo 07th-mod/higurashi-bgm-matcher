@@ -28,6 +28,16 @@ namespace Info
                         name = match.Groups[1].Value.Trim();
                         source = match.Groups[2].Value.Trim();
                         url = match.Groups[3].Value.Trim();
+
+                        // If match fails, try re-matching without URL
+                        if (!match.Success || string.IsNullOrEmpty(name) || string.IsNullOrEmpty(url))
+                        {
+                            Regex re2 = new Regex(@"(.*)\s*-\s*(.*)\s*\..*");
+                            Match match2 = re2.Match(filenameFixed);
+                            name = match2.Groups[1].Value.Trim();
+                            source = match2.Groups[2].Value.Trim();
+                            url = "";
+                        }
                     }
                     break;
 
@@ -52,6 +62,11 @@ namespace Info
 
                 default:
                     throw new Exception("Unknown mode for parsing metainfo from filename");
+            }
+
+            if (string.IsNullOrEmpty(name))
+            {
+                throw new Exception($"Couldn't parse bgm/se name from {filePathOrName}, mode: {mode}\nPlease check filename format is correct, and be careful of special characters like `()-[]`");
             }
         }
 
