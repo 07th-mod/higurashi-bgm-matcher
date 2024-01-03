@@ -6,6 +6,86 @@ using Newtonsoft.Json;
 using System.Globalization;
 using System.Text;
 
+
+Dictionary<string, VideoInfo> VideoInfoByFilename = new Dictionary<string, VideoInfo>()
+{
+    {"heri1", new VideoInfo("BSFX helicopter 1")},
+    {"heri2", new VideoInfo("BSFX helicopter 2")},
+    {"a1_03052", new VideoInfo("BSFX helicopter 1")},
+    {"a1_03055", new VideoInfo("BSFX helicopter 2")},
+    {"a1_12222", new VideoInfo("BSFX clock")},
+    {"a3_01005", new VideoInfo("BSFX wind")},
+    {"a3_02012", new VideoInfo("BSFX heavy rain")},
+    {"a3_05045", new VideoInfo("BSFX stormy ocean waves")},
+    {"a3_05051", new VideoInfo("BSFX ocean waves and seagulls")},
+    {"a5_01033", new VideoInfo("BSFX white noise flowing water")},
+    {"a5_14446", new VideoInfo("BSFX howling wind")},
+    {"ame", new VideoInfo("BSFX rain")},
+    {"ame2", new VideoInfo("BSFX rain")},
+    {"ame_9", new VideoInfo("BSFX muted rain")},
+    {"arasi_fr", new VideoInfo("BSFX phasor wind")},
+    {"b7_17370", new VideoInfo("BSFX helicopter")},
+    {"bell", new VideoInfo("BSFX antique bell phone")},
+    {"bird", new VideoInfo("BSFX bird")},
+    {"boira", new VideoInfo("BSFX boiler 1")},
+    {"boiraa", new VideoInfo("BSFX boiler 2")},
+    {"car_me1", new VideoInfo("BSFX car traffic 1")},
+    {"car_me2", new VideoInfo("BSFX car traffic 2")},
+    {"child_og", new VideoInfo("BSFX children background noises")},
+    {"densha3", new VideoInfo("BSFX train 1")},
+    {"densya", new VideoInfo("BSFX train 2")},
+    {"denwa", new VideoInfo("BSFX digital phone")},
+    {"denwa2", new VideoInfo("BSFX antique phone")},
+    {"doukutu_suiryu", new VideoInfo("BSFX fast dripping water")},
+    {"doukutu_suiteki", new VideoInfo("BSFX slow dripping water")},
+    {"flangefemale", new VideoInfo("BSFX female ghost flange")},
+    {"futousurunabe", new VideoInfo("BSFX bubbling sound")},
+    {"gaya0", new VideoInfo("BSFX background voices 1")},
+    {"gaya1", new VideoInfo("BSFX background voices 2")},
+    {"hakushu", new VideoInfo("BSFX clapping")},
+    {"higurashi", new VideoInfo("BSFX cicadas 1")},
+    {"higurasi", new VideoInfo("BSFX cicadas 2")},
+    {"husigitokei", new VideoInfo("BSFX heavy echoing clock ticking")},
+    {"kawa", new VideoInfo("BSFX flowing river")},
+    {"kaze", new VideoInfo("BSFX phasor wind")},
+    {"kaze_b", new VideoInfo("BSFX phasor wind 2")},
+    {"kaze_fr1", new VideoInfo("BSFX loud phasor wind")},
+    {"koware_wind", new VideoInfo("BSFX phasor wind 3")},
+    {"kuroden_bell2", new VideoInfo("BSFX bell phone ring")},
+    {"kuroden_bell2_far", new VideoInfo("BSFX bell phoen ring far away")},
+    {"lgsk_warai", new VideoInfo("BSFX scary echo laughing")},
+    {"lg_musi_yoru", new VideoInfo("BSFX night time pond noises")},
+    {"mati", new VideoInfo("BSFX driving noises 1")},
+    {"mati_kotu", new VideoInfo("BSFX driving noises 2")},
+    {"mati_kotu2", new VideoInfo("BSFX driving noises 3")},
+    {"me_101", new VideoInfo("BSFX outside background noise 1")},
+    {"me_102", new VideoInfo("BSFX outside background noise 2")},
+    {"me_103", new VideoInfo("BSFX outside background noise 3")},
+    {"me_104", new VideoInfo("BSFX outside background noise 4")},
+    {"me_105", new VideoInfo("BSFX outside background noise 5")},
+    {"me_106", new VideoInfo("BSFX outside background noise 6")},
+    {"me_107", new VideoInfo("BSFX outside background noise 7")},
+    {"rain4_long", new VideoInfo("BSFX rain 4")},
+    {"semi", new VideoInfo("BSFX cicadas")},
+    {"semi_r", new VideoInfo("BSFX phasor cicadas")},
+    {"storm2", new VideoInfo("BSFX storm")},
+    {"suiteki", new VideoInfo("BSFX dripping water")},
+    {"suzu", new VideoInfo("BSFX sleigh bells")},
+    {"suzume", new VideoInfo("BSFX soft birds chirping")},
+    {"taip", new VideoInfo("BSFX satisfying typing noises")},
+    {"tokeil4", new VideoInfo("BSFX clock ticking")},
+    {"tokei_f3", new VideoInfo("BSFX echoing clock ticking 1")},
+    {"tokei_fr3", new VideoInfo("BSFX echoing clock ticking 2")},
+    {"tokei_loop_l4", new VideoInfo("BSFX clock ticking loop")},
+    {"town2", new VideoInfo("BSFX town road driving noises")},
+    {"yoru", new VideoInfo("BSFX night time insect chirping")},
+};
+
+bool getVideoInfoByName(string name, out VideoInfo? videoInfo)
+{
+    return VideoInfoByFilename.TryGetValue(name.Trim().ToLower(), out videoInfo);
+}
+
 void WriteResultsAsCSV(Dictionary<string, VideoInfo?> results, string outputPath)
 {
     StringBuilder sb = new StringBuilder();
@@ -250,6 +330,15 @@ foreach (string path in query_paths)
         if (match == null && badMatch != null)
         {
             match = badMatch;
+        }
+    }
+
+    if (match == null)
+    {
+        string name = Path.GetFileNameWithoutExtension(path);
+        if (getVideoInfoByName(name, out VideoInfo? info))
+        {
+            match = info;
         }
     }
 
