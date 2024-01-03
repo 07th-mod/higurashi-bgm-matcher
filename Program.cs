@@ -9,76 +9,76 @@ using System.Text;
 
 Dictionary<string, VideoInfo> VideoInfoByFilename = new Dictionary<string, VideoInfo>()
 {
-    {"heri1", new VideoInfo("BSFX helicopter 1")},
-    {"heri2", new VideoInfo("BSFX helicopter 2")},
-    {"a1_03052", new VideoInfo("BSFX helicopter 1")},
-    {"a1_03055", new VideoInfo("BSFX helicopter 2")},
-    {"a1_12222", new VideoInfo("BSFX clock")},
-    {"a3_01005", new VideoInfo("BSFX wind")},
-    {"a3_02012", new VideoInfo("BSFX heavy rain")},
-    {"a3_05045", new VideoInfo("BSFX stormy ocean waves")},
-    {"a3_05051", new VideoInfo("BSFX ocean waves and seagulls")},
-    {"a5_01033", new VideoInfo("BSFX white noise flowing water")},
-    {"a5_14446", new VideoInfo("BSFX howling wind")},
-    {"ame", new VideoInfo("BSFX rain")},
-    {"ame2", new VideoInfo("BSFX rain")},
-    {"ame_9", new VideoInfo("BSFX muted rain")},
-    {"arasi_fr", new VideoInfo("BSFX phasor wind")},
-    {"b7_17370", new VideoInfo("BSFX helicopter")},
-    {"bell", new VideoInfo("BSFX antique bell phone")},
-    {"bird", new VideoInfo("BSFX bird")},
-    {"boira", new VideoInfo("BSFX boiler 1")},
-    {"boiraa", new VideoInfo("BSFX boiler 2")},
-    {"car_me1", new VideoInfo("BSFX car traffic 1")},
-    {"car_me2", new VideoInfo("BSFX car traffic 2")},
-    {"child_og", new VideoInfo("BSFX children background noises")},
-    {"densha3", new VideoInfo("BSFX train 1")},
-    {"densya", new VideoInfo("BSFX train 2")},
-    {"denwa", new VideoInfo("BSFX digital phone")},
-    {"denwa2", new VideoInfo("BSFX antique phone")},
-    {"doukutu_suiryu", new VideoInfo("BSFX fast dripping water")},
-    {"doukutu_suiteki", new VideoInfo("BSFX slow dripping water")},
-    {"flangefemale", new VideoInfo("BSFX female ghost flange")},
-    {"futousurunabe", new VideoInfo("BSFX bubbling sound")},
-    {"gaya0", new VideoInfo("BSFX background voices 1")},
-    {"gaya1", new VideoInfo("BSFX background voices 2")},
-    {"hakushu", new VideoInfo("BSFX clapping")},
-    {"higurashi", new VideoInfo("BSFX cicadas 1")},
-    {"higurasi", new VideoInfo("BSFX cicadas 2")},
-    {"husigitokei", new VideoInfo("BSFX heavy echoing clock ticking")},
-    {"kawa", new VideoInfo("BSFX flowing river")},
-    {"kaze", new VideoInfo("BSFX phasor wind")},
-    {"kaze_b", new VideoInfo("BSFX phasor wind 2")},
-    {"kaze_fr1", new VideoInfo("BSFX loud phasor wind")},
-    {"koware_wind", new VideoInfo("BSFX phasor wind 3")},
-    {"kuroden_bell2", new VideoInfo("BSFX bell phone ring")},
-    {"kuroden_bell2_far", new VideoInfo("BSFX bell phoen ring far away")},
-    {"lgsk_warai", new VideoInfo("BSFX scary echo laughing")},
-    {"lg_musi_yoru", new VideoInfo("BSFX night time pond noises")},
-    {"mati", new VideoInfo("BSFX driving noises 1")},
-    {"mati_kotu", new VideoInfo("BSFX driving noises 2")},
-    {"mati_kotu2", new VideoInfo("BSFX driving noises 3")},
-    {"me_101", new VideoInfo("BSFX outside background noise 1")},
-    {"me_102", new VideoInfo("BSFX outside background noise 2")},
-    {"me_103", new VideoInfo("BSFX outside background noise 3")},
-    {"me_104", new VideoInfo("BSFX outside background noise 4")},
-    {"me_105", new VideoInfo("BSFX outside background noise 5")},
-    {"me_106", new VideoInfo("BSFX outside background noise 6")},
-    {"me_107", new VideoInfo("BSFX outside background noise 7")},
-    {"rain4_long", new VideoInfo("BSFX rain 4")},
-    {"semi", new VideoInfo("BSFX cicadas")},
-    {"semi_r", new VideoInfo("BSFX phasor cicadas")},
-    {"storm2", new VideoInfo("BSFX storm")},
-    {"suiteki", new VideoInfo("BSFX dripping water")},
-    {"suzu", new VideoInfo("BSFX sleigh bells")},
-    {"suzume", new VideoInfo("BSFX soft birds chirping")},
-    {"taip", new VideoInfo("BSFX satisfying typing noises")},
-    {"tokeil4", new VideoInfo("BSFX clock ticking")},
-    {"tokei_f3", new VideoInfo("BSFX echoing clock ticking 1")},
-    {"tokei_fr3", new VideoInfo("BSFX echoing clock ticking 2")},
-    {"tokei_loop_l4", new VideoInfo("BSFX clock ticking loop")},
-    {"town2", new VideoInfo("BSFX town road driving noises")},
-    {"yoru", new VideoInfo("BSFX night time insect chirping")},
+    {"heri1", new VideoInfo("BSFX Helicopter 1")},
+    {"heri2", new VideoInfo("BSFX Helicopter 2")},
+    {"a1_03052", new VideoInfo("BSFX Helicopter 1")},
+    {"a1_03055", new VideoInfo("BSFX Helicopter 2")},
+    {"a1_12222", new VideoInfo("BSFX Clock")},
+    {"a3_01005", new VideoInfo("BSFX Wind")},
+    {"a3_02012", new VideoInfo("BSFX Heavy Rain")},
+    {"a3_05045", new VideoInfo("BSFX Stormy Ocean Waves")},
+    {"a3_05051", new VideoInfo("BSFX Ocean Waves and Seagulls")},
+    {"a5_01033", new VideoInfo("BSFX White Noise Flowing Water")},
+    {"a5_14446", new VideoInfo("BSFX Howling Wind")},
+    {"ame", new VideoInfo("BSFX Rain")},
+    {"ame2", new VideoInfo("BSFX Rain")},
+    {"ame_9", new VideoInfo("BSFX Muted Rain")},
+    {"arasi_fr", new VideoInfo("BSFX Phasor Wind")},
+    {"b7_17370", new VideoInfo("BSFX Helicopter")},
+    {"bell", new VideoInfo("BSFX Antique Bell Phone")},
+    {"bird", new VideoInfo("BSFX Bird")},
+    {"boira", new VideoInfo("BSFX Boiler 1")},
+    {"boiraa", new VideoInfo("BSFX Boiler 2")},
+    {"car_me1", new VideoInfo("BSFX Car Traffic 1")},
+    {"car_me2", new VideoInfo("BSFX Car Traffic 2")},
+    {"child_og", new VideoInfo("BSFX Children Background Noise")},
+    {"densha3", new VideoInfo("BSFX Train 1")},
+    {"densya", new VideoInfo("BSFX Train 2")},
+    {"denwa", new VideoInfo("BSFX Digital phone")},
+    {"denwa2", new VideoInfo("BSFX Antique phone")},
+    {"doukutu_suiryu", new VideoInfo("BSFX Fast Dripping Water")},
+    {"doukutu_suiteki", new VideoInfo("BSFX Slow Dripping Water")},
+    {"flangefemale", new VideoInfo("BSFX Female Ghost Flange")},
+    {"futousurunabe", new VideoInfo("BSFX Bubbling Sound")},
+    {"gaya0", new VideoInfo("BSFX Background Voices 1")},
+    {"gaya1", new VideoInfo("BSFX Background Voices 2")},
+    {"hakushu", new VideoInfo("BSFX Clapping")},
+    {"higurashi", new VideoInfo("BSFX Cicadas 1")},
+    {"higurasi", new VideoInfo("BSFX Cicadas 2")},
+    {"husigitokei", new VideoInfo("BSFX Heavy Echoing Clock Ticking")},
+    {"kawa", new VideoInfo("BSFX Flowing River")},
+    {"kaze", new VideoInfo("BSFX Phasor Wind")},
+    {"kaze_b", new VideoInfo("BSFX Phasor Wind 2")},
+    {"kaze_fr1", new VideoInfo("BSFX Loud Phasor Wind")},
+    {"koware_wind", new VideoInfo("BSFX Phasor Wind 3")},
+    {"kuroden_bell2", new VideoInfo("BSFX Bell Phone Ringing")},
+    {"kuroden_bell2_far", new VideoInfo("BSFX Distant Bell Phone Ringing")},
+    {"lgsk_warai", new VideoInfo("BSFX Scary Echo Laughing")},
+    {"lg_musi_yoru", new VideoInfo("BSFX Night Pond Noises")},
+    {"mati", new VideoInfo("BSFX Driving Noises 1")},
+    {"mati_kotu", new VideoInfo("BSFX Driving Noises 2")},
+    {"mati_kotu2", new VideoInfo("BSFX Driving Noises 3")},
+    {"me_101", new VideoInfo("BSFX Outside Background Noise 1")},
+    {"me_102", new VideoInfo("BSFX Outside Background Noise 2")},
+    {"me_103", new VideoInfo("BSFX Outside Background Noise 3")},
+    {"me_104", new VideoInfo("BSFX Outside Background Noise 4")},
+    {"me_105", new VideoInfo("BSFX Outside Background Noise 5")},
+    {"me_106", new VideoInfo("BSFX Outside Background Noise 6")},
+    {"me_107", new VideoInfo("BSFX Outside Background Noise 7")},
+    {"rain4_long", new VideoInfo("BSFX Rain 4")},
+    {"semi", new VideoInfo("BSFX Cicadas")},
+    {"semi_r", new VideoInfo("BSFX Phasor Cicadas")},
+    {"storm2", new VideoInfo("BSFX Storm")},
+    {"suiteki", new VideoInfo("BSFX Dripping Water")},
+    {"suzu", new VideoInfo("BSFX Sleigh Bells")},
+    {"suzume", new VideoInfo("BSFX Soft Birds Chirping")},
+    {"taip", new VideoInfo("BSFX Satisfying Typing Noises")},
+    {"tokeil4", new VideoInfo("BSFX Clock Ticking")},
+    {"tokei_f3", new VideoInfo("BSFX Echoing Clock Ticking 1")},
+    {"tokei_fr3", new VideoInfo("BSFX Echoing Clock Ticking 2")},
+    {"tokei_loop_l4", new VideoInfo("BSFX Clock Ticking Loop")},
+    {"town2", new VideoInfo("BSFX Town Road Driving Noises")},
+    {"yoru", new VideoInfo("BSFX Night Time Insect Chirping")},
 };
 
 bool getVideoInfoByName(string name, out VideoInfo? videoInfo)
@@ -294,6 +294,15 @@ foreach (string path in query_paths)
 
     if (match == null)
     {
+        string name = Path.GetFileNameWithoutExtension(path);
+        if (getVideoInfoByName(name, out VideoInfo? info))
+        {
+            match = info;
+        }
+    }
+
+    if (match == null)
+    {
         VideoInfo badMatch = null;
 
         // Do an approixmate match using the sound fingerprinting library
@@ -330,15 +339,6 @@ foreach (string path in query_paths)
         if (match == null && badMatch != null)
         {
             match = badMatch;
-        }
-    }
-
-    if (match == null)
-    {
-        string name = Path.GetFileNameWithoutExtension(path);
-        if (getVideoInfoByName(name, out VideoInfo? info))
-        {
-            match = info;
         }
     }
 

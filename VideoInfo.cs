@@ -80,7 +80,7 @@ namespace Info
         public VideoInfo(string name)
         {
             this.name = name;
-            this.source = "Filename";
+            this.source = "";
             this.url = "";
         }
 
