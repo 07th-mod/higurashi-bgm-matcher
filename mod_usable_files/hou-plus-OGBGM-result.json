@@ -1,0 +1,1210 @@
+{
+  "bgmList": {
+    "bgm0\\03_cele": {
+      "comment": "",
+      "name": "daily passing by(celesta)",
+      "source": "Higurashi no Naku Koro ni Kai",
+      "url": "V_uVKBZ1_74"
+    },
+    "bgm0\\1": {
+      "comment": "",
+      "name": "Paris no Gogo (Afternoon in Paris)",
+      "source": "Higurashi no Naku Koro ni",
+      "url": "DEM-rr7zm9g"
+    },
+    "bgm0\\2": {
+      "comment": "",
+      "name": "Hello!",
+      "source": "Higurashi no Naku Koro ni",
+      "url": "KC5S3T68n-w"
+    },
+    "bgm0\\3": {
+      "comment": "",
+      "name": "Sutakorasassa (Helter Skelter)",
+      "source": "Higurashi no Naku Koro ni",
+      "url": "WY_-MK0XBGc"
+    },
+    "bgm0\\4": {
+      "comment": "",
+      "name": "Digital Network",
+      "source": "Higurashi no Naku Koro ni",
+      "url": "WABneXoH9ls"
+    },
+    "bgm0\\5": {
+      "comment": "",
+      "name": "Orenji iro no Toki (Orange colored Time)",
+      "source": "Higurashi no Naku Koro ni",
+      "url": "Yan1F5U63r8"
+    },
+    "bgm0\\6": {
+      "comment": "",
+      "name": "Silence",
+      "source": "Higurashi no Naku Koro ni",
+      "url": "StjLCsfIbqQ"
+    },
+    "bgm0\\7": {
+      "comment": "",
+      "name": "Doukutsu (Cave)",
+      "source": "Higurashi no Naku Koro ni",
+      "url": "C5NjBlR3Y58"
+    },
+    "bgm0\\8": {
+      "comment": "",
+      "name": "Mazoku Kenkyuusho (Demonic Institute)",
+      "source": "Higurashi no Naku Koro ni",
+      "url": "d11-trxvJx4"
+    },
+    "bgm0\\9": {
+      "comment": "",
+      "name": "Seijaku (Quietness)",
+      "source": "Higurashi no Naku Koro ni",
+      "url": "9IReJdqR-Hc"
+    },
+    "bgm0\\amber": {
+      "comment": "",
+      "name": "Amber",
+      "source": "Higurashi no Naku Koro ni Kai",
+      "url": "da89qvaDZtc"
+    },
+    "bgm0\\ame": {
+      "comment": "",
+      "name": "BSFX Rain",
+      "source": "",
+      "url": ""
+    },
+    "bgm0\\ame_9": {
+      "comment": "",
+      "name": "BSFX Muted Rain",
+      "source": "",
+      "url": ""
+    },
+    "bgm0\\bellflower": {
+      "comment": "",
+      "name": "Bellflower",
+      "source": "Higurashi no Naku Koro ni Kai",
+      "url": "738CFl3SVio"
+    },
+    "bgm0\\birth_and_death": {
+      "comment": "",
+      "name": "Birth and death",
+      "source": "Higurashi no Naku Koro ni Kai",
+      "url": "7CLltCSDnY0"
+    },
+    "bgm0\\cafe": {
+      "comment": "",
+      "name": "Boy in the Windmill (Fuushagoya no Shounen⧸風車小屋の少年 )",
+      "source": "Higurashi no Naku Koro ni Kai",
+      "url": "szDKbPLq-to"
+    },
+    "bgm0\\cradle song": {
+      "comment": "",
+      "name": "Cradle Song",
+      "source": "Higurashi no Naku Koro ni Kai",
+      "url": "ie1GdUcudEc"
+    },
+    "bgm0\\dancers1": {
+      "comment": "",
+      "name": "Dancers #1",
+      "source": "Higurashi no Naku Koro ni",
+      "url": "127rv27P6AI"
+    },
+    "bgm0\\dancers5": {
+      "comment": "",
+      "name": "Dancers #5",
+      "source": "Higurashi no Naku Koro ni",
+      "url": "nQe2zT8nicI"
+    },
+    "bgm0\\dancers7": {
+      "comment": "",
+      "name": "Dancers #7",
+      "source": "Higurashi no Naku Koro ni",
+      "url": "OVFNCdodmTA"
+    },
+    "bgm0\\dawn": {
+      "comment": "",
+      "name": "Dawn",
+      "source": "Higurashi no Naku Koro ni",
+      "url": "D4Vd1350-a8"
+    },
+    "bgm0\\days_of_children3": {
+      "comment": "",
+      "name": "Days of children #3",
+      "source": "Higurashi no Naku Koro ni",
+      "url": "F8iQ9urzH-8"
+    },
+    "bgm0\\deadend": {
+      "comment": "",
+      "name": "Unseen Future (Mienu Mirai⧸見えぬ未来)",
+      "source": "Higurashi no Naku Koro ni Kai",
+      "url": "Y44kndqH2Xc"
+    },
+    "bgm0\\demo(48khz)": {
+      "comment": "",
+      "name": "Shadow (Kage⧸陰(かげ))",
+      "source": "Higurashi no Naku Koro ni Kai",
+      "url": "KRdt0eQTUdg"
+    },
+    "bgm0\\denwa": {
+      "comment": "",
+      "name": "BSFX Digital phone",
+      "source": "",
+      "url": ""
+    },
+    "bgm0\\denwa2": {
+      "comment": "",
+      "name": "BSFX Antique phone",
+      "source": "",
+      "url": ""
+    },
+    "bgm0\\depressive paranoia": {
+      "comment": "",
+      "name": "Depressive Paranoia",
+      "source": "Higurashi no Naku Koro ni Kai ： The Lost Tracks",
+      "url": "rOK2xE405_s"
+    },
+    "bgm0\\fascism": {
+      "comment": "",
+      "name": "Fascism",
+      "source": "Higurashi no Naku Koro ni",
+      "url": "GhKrTag5Rbc"
+    },
+    "bgm0\\gear": {
+      "comment": "",
+      "name": "Gear",
+      "source": "Higurashi no Naku Koro ni",
+      "url": "MX1hS7PwgRU"
+    },
+    "bgm0\\getting_mad": {
+      "comment": "",
+      "name": "Gallery of Madness (Kiyouki he no Kairou⧸狂気への回廊)",
+      "source": "Higurashi no Naku Koro ni Kai",
+      "url": "tQXW5L59Zpo"
+    },
+    "bgm0\\giwaku2": {
+      "comment": "",
+      "name": "Silver Mirror",
+      "source": "Higurashi no Naku Koro ni",
+      "url": "qTxmYXt2nfE"
+    },
+    "bgm0\\heri1": {
+      "comment": "",
+      "name": "BSFX Helicopter 1",
+      "source": "",
+      "url": ""
+    },
+    "bgm0\\heri2": {
+      "comment": "",
+      "name": "BSFX Helicopter 2",
+      "source": "",
+      "url": ""
+    },
+    "bgm0\\hgrs01": {
+      "comment": "",
+      "name": "Solitude",
+      "source": "Higurashi no Naku Koro ni Kai",
+      "url": "r1xK9_vUu9o"
+    },
+    "bgm0\\hgrs_03": {
+      "comment": "",
+      "name": "Frozen memories",
+      "source": "Higurashi no Naku Koro ni Kai",
+      "url": "gR6aS2m9HEE"
+    },
+    "bgm0\\higurashi(utu)": {
+      "comment": "",
+      "name": "Utu",
+      "source": "Higurashi no Naku Koro ni Kai",
+      "url": "4DhtzrwhVyo"
+    },
+    "bgm0\\higurashi": {
+      "comment": "",
+      "name": "BSFX Cicadas 1",
+      "source": "",
+      "url": ""
+    },
+    "bgm0\\higurashi_soundscape": {
+      "comment": "",
+      "name": "Festivals (Shiukusai⧸祝祭)",
+      "source": "Higurashi no Naku Koro ni Kai",
+      "url": "zLJW4lBlNAY"
+    },
+    "bgm0\\higurasi": {
+      "comment": "",
+      "name": "BSFX Cicadas 2",
+      "source": "",
+      "url": ""
+    },
+    "bgm0\\iru": {
+      "comment": "",
+      "name": "Iru",
+      "source": "Higurashi no Naku Koro ni Kai",
+      "url": "DUXfUyX7N4A"
+    },
+    "bgm0\\iwakannnohatuga": {
+      "comment": "",
+      "name": "Germination of Discomfort 違和感の発芽 (Higurashi Kai)",
+      "source": "",
+      "url": ""
+    },
+    "bgm0\\kawa": {
+      "comment": "",
+      "name": "BSFX Flowing River",
+      "source": "",
+      "url": ""
+    },
+    "bgm0\\kaze": {
+      "comment": "",
+      "name": "BSFX Phasor Wind",
+      "source": "",
+      "url": ""
+    },
+    "bgm0\\lie-lies_lies-lie": {
+      "comment": "",
+      "name": "Lie lies-lies lie",
+      "source": "Higurashi no Naku Koro ni",
+      "url": "9D1MewtrV1M"
+    },
+    "bgm0\\mati": {
+      "comment": "",
+      "name": "BSFX Driving Noises 1",
+      "source": "",
+      "url": ""
+    },
+    "bgm0\\mds2": {
+      "comment": "",
+      "name": "Theme of owner",
+      "source": "Higurashi no Naku Koro ni",
+      "url": "Og3m-0CsePA"
+    },
+    "bgm0\\meditation1": {
+      "comment": "",
+      "name": "Meditation #1",
+      "source": "Higurashi no Naku Koro ni",
+      "url": "bvHD_Plk4c4"
+    },
+    "bgm0\\nazo": {
+      "comment": "",
+      "name": "Ancient Times (Inishie⧸古)",
+      "source": "Higurashi no Naku Koro ni Kai",
+      "url": "PWf0dbHXUmI"
+    },
+    "bgm0\\omake2": {
+      "comment": "",
+      "name": "You (M.Box)",
+      "source": "Higurashi no Naku Koro ni Kai",
+      "url": "QiJnstjBA9Q"
+    },
+    "bgm0\\pros": {
+      "comment": "",
+      "name": "Pros",
+      "source": "Higurashi no Naku Koro ni Kai",
+      "url": "jw8ozfMGkGI"
+    },
+    "bgm0\\rainy_days": {
+      "comment": "",
+      "name": "Rainy Days",
+      "source": "Higurashi no Naku Koro ni",
+      "url": "m18qsZ8jDyg"
+    },
+    "bgm0\\semi": {
+      "comment": "",
+      "name": "BSFX Cicadas",
+      "source": "",
+      "url": ""
+    },
+    "bgm0\\semi_r": {
+      "comment": "",
+      "name": "BSFX Phasor Cicadas",
+      "source": "",
+      "url": ""
+    },
+    "bgm0\\sheep counts": {
+      "comment": "",
+      "name": "Sheep Counts",
+      "source": "Higurashi no Naku Koro ni Kai",
+      "url": "lEH5EVCS0yA"
+    },
+    "bgm0\\snow3": {
+      "comment": "",
+      "name": "Snow #3 ＂First snow＂",
+      "source": "Higurashi no Naku Koro ni",
+      "url": "QYQH4UjGuvY"
+    },
+    "bgm0\\snow4": {
+      "comment": "",
+      "name": "Snow #4 ＂Frozen to death＂",
+      "source": "Higurashi no Naku Koro ni",
+      "url": "5G_DfhL8XP0"
+    },
+    "bgm0\\soul_scour": {
+      "comment": "",
+      "name": "Soul Scour",
+      "source": "Higurashi no Naku Koro ni Kai",
+      "url": "1AxkHZ5WGMc"
+    },
+    "bgm0\\staff_roll_uta": {
+      "comment": "",
+      "name": "ひぐらしブレイクアウト！",
+      "source": "",
+      "url": ""
+    },
+    "bgm0\\sunrise": {
+      "comment": "",
+      "name": "Sunrise",
+      "source": "Higurashi no Naku Koro ni",
+      "url": "DvBwbtRxE0A"
+    },
+    "bgm0\\suzu": {
+      "comment": "",
+      "name": "BSFX Sleigh Bells",
+      "source": "",
+      "url": ""
+    },
+    "bgm0\\suzume": {
+      "comment": "",
+      "name": "BSFX Soft Birds Chirping",
+      "source": "",
+      "url": ""
+    },
+    "bgm0\\t1": {
+      "comment": "",
+      "name": "Thanks",
+      "source": "Higurashi no Naku Koro ni Kai",
+      "url": "fwjrFbTBCkc"
+    },
+    "bgm0\\t2": {
+      "comment": "",
+      "name": "Confession",
+      "source": "Higurashi no Naku Koro ni Kai",
+      "url": "6JM0QAyFj60"
+    },
+    "bgm0\\taip": {
+      "comment": "",
+      "name": "BSFX Satisfying Typing Noises",
+      "source": "",
+      "url": ""
+    },
+    "bgm0\\tell_a_thing": {
+      "comment": "",
+      "name": "Tell a thing (Remastered Version)",
+      "source": "",
+      "url": ""
+    },
+    "bgm0\\theme_of_owner": {
+      "comment": "",
+      "name": "Theme of owner",
+      "source": "Higurashi no Naku Koro ni",
+      "url": "Og3m-0CsePA"
+    },
+    "bgm0\\tip": {
+      "comment": "",
+      "name": "Asagiri (Morning Fog)",
+      "source": "Higurashi no Naku Koro ni",
+      "url": "lnBTX88qHP4"
+    },
+    "bgm0\\yoru": {
+      "comment": "",
+      "name": "BSFX Night Time Insect Chirping",
+      "source": "",
+      "url": ""
+    },
+    "bgm0\\z2_hig1": {
+      "comment": "",
+      "name": "Soak",
+      "source": "Higurashi no Naku Koro ni Kai",
+      "url": "X3Ei-aR0XBg"
+    },
+    "bgm0\\z2_hig2": {
+      "comment": "",
+      "name": "What is Wished",
+      "source": "Higurashi no Naku Koro ni Kai",
+      "url": "Iskv6DyiSXs"
+    },
+    "bgm0\\z2_hig3": {
+      "comment": "",
+      "name": "daily passing by",
+      "source": "Higurashi no Naku Koro ni Kai",
+      "url": "KyMzLp80GyU"
+    },
+    "bgm1\\air pizz_ver2": {
+      "comment": "",
+      "name": "Air Pizz",
+      "source": "Higurashi no Naku Koro ni Kai",
+      "url": "9lSzhUYIw_o"
+    },
+    "bgm1\\as time goes by": {
+      "comment": "",
+      "name": "Over the sky",
+      "source": "Higurashi no Naku Koro ni Kai",
+      "url": "nqUEx8Hroto"
+    },
+    "bgm1\\attack": {
+      "comment": "",
+      "name": "Assault Operations",
+      "source": "Higurashi no Naku Koro ni Kai ： The Lost Tracks",
+      "url": "4QfNMaiM8Og"
+    },
+    "bgm1\\bigbear": {
+      "comment": "",
+      "name": "Big Bear",
+      "source": "Higurashi no Naku Koro ni Kai",
+      "url": "i2bp9VpmSCM"
+    },
+    "bgm1\\chants90-ahh": {
+      "comment": "",
+      "name": "Requiem for the Disaster",
+      "source": "Higurashi no Naku Koro ni Kai ： The Lost Tracks",
+      "url": "z7Q0t-WxgzI"
+    },
+    "bgm1\\cure_world": {
+      "comment": "",
+      "name": "Cure world",
+      "source": "",
+      "url": ""
+    },
+    "bgm1\\demo_long._ver2": {
+      "comment": "",
+      "name": "you -destructive",
+      "source": "Higurashi no Naku Koro ni Kai",
+      "url": "idniooAvNfw"
+    },
+    "bgm1\\door": {
+      "comment": "",
+      "name": "Door",
+      "source": "Higurashi no Naku Koro ni Kai",
+      "url": "N1F3VOhpJvE"
+    },
+    "bgm1\\er_ver3": {
+      "comment": "",
+      "name": "Two, Alone (Futari. Hitori. ⧸ ふたり。ひとり。)",
+      "source": "Higurashi no Naku Koro ni Kai",
+      "url": "Wvn7gr2uxGw"
+    },
+    "bgm1\\fearlessnessl_e": {
+      "comment": "",
+      "name": "Fearlessness",
+      "source": "Higurashi no Naku Koro ni Kai",
+      "url": "HZ5IP2_MXfY"
+    },
+    "bgm1\\feel": {
+      "comment": "",
+      "name": "Feel",
+      "source": "Higurashi no Naku Koro ni Kai",
+      "url": "2QwwU37PIAw"
+    },
+    "bgm1\\garakutamono": {
+      "comment": "",
+      "name": "がらくたもの",
+      "source": "",
+      "url": ""
+    },
+    "bgm1\\gray_2": {
+      "comment": "",
+      "name": "Gray",
+      "source": "Higurashi no Naku Koro ni Kai",
+      "url": "Vevn-qto7So"
+    },
+    "bgm1\\hakumu": {
+      "comment": "",
+      "name": "White Mist Peak -Pure White-",
+      "source": "Higurashi no Naku Koro ni Kai ： The Lost Tracks",
+      "url": "T4hvKYS9Cq4"
+    },
+    "bgm1\\higurashi-breakout-instrumental-": {
+      "comment": "",
+      "name": "ひぐらしブレイクアウト！ -instrumental-",
+      "source": "",
+      "url": ""
+    },
+    "bgm1\\higurashi-breakout_ver-moe": {
+      "comment": "",
+      "name": "ひぐらしブレイクアウト！",
+      "source": "",
+      "url": ""
+    },
+    "bgm1\\hitoe_2": {
+      "comment": "",
+      "name": "Single (Hitoe⧸一重)",
+      "source": "Higurashi no Naku Koro ni Kai",
+      "url": "scj4OQ_FfZE"
+    },
+    "bgm1\\hushigigatari": {
+      "comment": "",
+      "name": "ふしぎがたり",
+      "source": "",
+      "url": ""
+    },
+    "bgm1\\instict": {
+      "comment": "",
+      "name": "Quickening (Taidou⧸胎動)",
+      "source": "Higurashi no Naku Koro ni Kai",
+      "url": "78M48YTHsbU"
+    },
+    "bgm1\\instict2": {
+      "comment": "",
+      "name": "Rain - Higurashi no Naku Koro ni Kai",
+      "source": "Higurashi no Naku Koro ni Kai",
+      "url": "mSAF8g8xWFw"
+    },
+    "bgm1\\iru": {
+      "comment": "",
+      "name": "Iru",
+      "source": "Higurashi no Naku Koro ni Kai",
+      "url": "DUXfUyX7N4A"
+    },
+    "bgm1\\it move2": {
+      "comment": "",
+      "name": "Squall",
+      "source": "Higurashi no Naku Koro ni Kai",
+      "url": "7vNgSJmuCLw"
+    },
+    "bgm1\\it moves": {
+      "comment": "",
+      "name": "Beat (Kodou ⧸ 鼓動)",
+      "source": "Higurashi no Naku Koro ni Kai",
+      "url": "xHV1sP8NIiw"
+    },
+    "bgm1\\lg_u_chu_chu": {
+      "comment": "",
+      "name": "U-CHU-CHU",
+      "source": "",
+      "url": ""
+    },
+    "bgm1\\liberating": {
+      "comment": "",
+      "name": "Liberating",
+      "source": "Higurashi no Naku Koro ni Kai",
+      "url": "3gp8n60hsmU"
+    },
+    "bgm1\\live_2": {
+      "comment": "",
+      "name": "LIVE",
+      "source": "Higurashi no Naku Koro ni Kai",
+      "url": "1GjgWuWcjBA"
+    },
+    "bgm1\\live_scene_music": {
+      "comment": "",
+      "name": "Conviction",
+      "source": "Higurashi no Naku Koro ni Kai",
+      "url": "RaIFoIsoAY8"
+    },
+    "bgm1\\maturi_01_ver2": {
+      "comment": "",
+      "name": "Festival (祭⧸Matsuri)",
+      "source": "Higurashi no Naku Koro ni Kai",
+      "url": "sIQffl3TtEo"
+    },
+    "bgm1\\mienai": {
+      "comment": "",
+      "name": "Night When the Invisible Scares You",
+      "source": "Higurashi no Naku Koro ni Kai ： The Lost Tracks",
+      "url": "TRF5vvM3MZU"
+    },
+    "bgm1\\mion": {
+      "comment": "",
+      "name": "Spring Step (Mion)",
+      "source": "Higurashi no Naku Koro ni",
+      "url": "8gkVtW1QV6k"
+    },
+    "bgm1\\moon_bow_eq": {
+      "comment": "",
+      "name": "Moon bow",
+      "source": "",
+      "url": ""
+    },
+    "bgm1\\musou_orgelver": {
+      "comment": "",
+      "name": "몽상 -오르골- 夢想 -オルゴール-",
+      "source": "",
+      "url": ""
+    },
+    "bgm1\\natuyuki_mst1_140208": {
+      "comment": "",
+      "name": "여름 눈 夏雪",
+      "source": "",
+      "url": ""
+    },
+    "bgm1\\omake_01": {
+      "comment": "",
+      "name": "C-examination",
+      "source": "Higurashi no Naku Koro ni Kai",
+      "url": "sPUZTL05tuQ"
+    },
+    "bgm1\\otonasi": {
+      "comment": "",
+      "name": "소리 없는 마을 音無しの村",
+      "source": "",
+      "url": ""
+    },
+    "bgm1\\out2": {
+      "comment": "",
+      "name": "짙은 안개 濃霧",
+      "source": "",
+      "url": ""
+    },
+    "bgm1\\out3": {
+      "comment": "",
+      "name": "Remember",
+      "source": "",
+      "url": ""
+    },
+    "bgm1\\primal-beat-of-horrow_t": {
+      "comment": "",
+      "name": "Primal Beat of Horrow",
+      "source": "Higurashi no Naku Koro ni Kai ： The Lost Tracks",
+      "url": "KZuQ8WyfurE"
+    },
+    "bgm1\\r of can": {
+      "comment": "",
+      "name": "R of Can",
+      "source": "Higurashi no Naku Koro ni Kai ： The Lost Tracks",
+      "url": "94LSz6Fs2AU"
+    },
+    "bgm1\\rena": {
+      "comment": "",
+      "name": "Lunch Time (Rena)",
+      "source": "Higurashi no Naku Koro ni",
+      "url": "oxvlQSktJpY"
+    },
+    "bgm1\\rika": {
+      "comment": "",
+      "name": "Baby's Walk (Rika)",
+      "source": "Higurashi no Naku Koro ni",
+      "url": "9kdlDI_Rb4A"
+    },
+    "bgm1\\samayoi": {
+      "comment": "",
+      "name": "Wandering Words Lead to Heaven",
+      "source": "Higurashi no Naku Koro ni Kai ： The Lost Tracks",
+      "url": "U8_YBSIbXR0"
+    },
+    "bgm1\\satoko": {
+      "comment": "",
+      "name": "Small Town (Satoko)",
+      "source": "Higurashi no Naku Koro ni",
+      "url": "vCRrht6YcLk"
+    },
+    "bgm1\\search and destroy(long)_ver3": {
+      "comment": "",
+      "name": "Search and Destroy",
+      "source": "Higurashi no Naku Koro ni Kai",
+      "url": "Xvh5lbVQX0g"
+    },
+    "bgm1\\sora ver2_ver2": {
+      "comment": "",
+      "name": "Beyond the Skies (Sora no Mukou⧸そらのむこう)",
+      "source": "Higurashi no Naku Koro ni Kai",
+      "url": "AHVwZ13jMHQ"
+    },
+    "bgm1\\sora-yume-": {
+      "comment": "",
+      "name": "Fabricated Dream (Sorayume⧸空夢)",
+      "source": "Higurashi no Naku Koro ni Kai",
+      "url": "_KOvyNu5_tA"
+    },
+    "bgm1\\soranomukou(yoursver)": {
+      "comment": "",
+      "name": "Beyond the Skies (Sora no Mukou⧸そらのむこう)",
+      "source": "Higurashi no Naku Koro ni Kai",
+      "url": "AHVwZ13jMHQ"
+    },
+    "bgm1\\sora_no_mukou_2012ver": {
+      "comment": "",
+      "name": "Beyond the Skies (そらのむこう⧸Sora no Mukou) [Piano]",
+      "source": "Higurashi no Naku Koro ni Kai",
+      "url": "4utMMuBEnjs"
+    },
+    "bgm1\\tenonaruhouhe": {
+      "comment": "",
+      "name": "手の鳴る方へ",
+      "source": "",
+      "url": ""
+    },
+    "bgm1\\testament": {
+      "comment": "",
+      "name": "Testament",
+      "source": "Higurashi no Naku Koro ni Kai",
+      "url": "hD2LRjZhco0"
+    },
+    "bgm1\\toosenakiya": {
+      "comment": "",
+      "name": "とおせなきや",
+      "source": "",
+      "url": ""
+    },
+    "bgm1\\tsukisanbika": {
+      "comment": "",
+      "name": "Moon -Cruelness⇔Tribute- Song",
+      "source": "Higurashi no Naku Koro ni Kai ： The Lost Tracks",
+      "url": "vrxGUuia50M"
+    },
+    "bgm1\\tuika01_ver3": {
+      "comment": "",
+      "name": "Being",
+      "source": "Higurashi no Naku Koro ni Kai",
+      "url": "MwXacn8HyIs"
+    },
+    "bgm1\\typewriter": {
+      "comment": "",
+      "name": "Hollow (Uro⧸虚)",
+      "source": "Higurashi no Naku Koro ni Kai",
+      "url": "tQjwwjSUpZE"
+    },
+    "bgm1\\urameshikodama": {
+      "comment": "",
+      "name": "うらめしこだま",
+      "source": "",
+      "url": ""
+    },
+    "bgm1\\utage_sample": {
+      "comment": "",
+      "name": "Banquet (Utage⧸宴)",
+      "source": "Higurashi no Naku Koro ni Kai",
+      "url": "yudYvwzzy18"
+    },
+    "bgm1\\years_ver2": {
+      "comment": "",
+      "name": "Years",
+      "source": "Higurashi no Naku Koro ni Kai",
+      "url": "OOVVMxWeUyY"
+    },
+    "bgm1\\you": {
+      "comment": "",
+      "name": "you",
+      "source": "Higurashi no Naku Koro ni Kai",
+      "url": "s7hkYNovNek"
+    },
+    "bgm1\\zenmou_cast-act2-": {
+      "comment": "",
+      "name": "ZENMOU CAST -ACT2-",
+      "source": "",
+      "url": ""
+    },
+    "bgm1\\zero": {
+      "comment": "",
+      "name": "Z・E・R・O",
+      "source": "Higurashi no Naku Koro ni Kai ： The Lost Tracks",
+      "url": "qcs2tpnQZEQ"
+    },
+    "bgm1\\zoku_haimen_no_tomoshibi": {
+      "comment": "",
+      "name": "続・背面の灯火",
+      "source": "",
+      "url": ""
+    },
+    "me\\a1_03052": {
+      "comment": "",
+      "name": "BSFX Helicopter 1",
+      "source": "",
+      "url": ""
+    },
+    "me\\a1_03055": {
+      "comment": "",
+      "name": "BSFX Helicopter 2",
+      "source": "",
+      "url": ""
+    },
+    "me\\a1_12222": {
+      "comment": "",
+      "name": "BSFX Clock",
+      "source": "",
+      "url": ""
+    },
+    "me\\a3_01005": {
+      "comment": "",
+      "name": "BSFX Wind",
+      "source": "",
+      "url": ""
+    },
+    "me\\a3_02012": {
+      "comment": "",
+      "name": "BSFX Heavy Rain",
+      "source": "",
+      "url": ""
+    },
+    "me\\a3_05045": {
+      "comment": "",
+      "name": "BSFX Stormy Ocean Waves",
+      "source": "",
+      "url": ""
+    },
+    "me\\a3_05051": {
+      "comment": "",
+      "name": "BSFX Ocean Waves and Seagulls",
+      "source": "",
+      "url": ""
+    },
+    "me\\a5_01033": {
+      "comment": "",
+      "name": "BSFX White Noise Flowing Water",
+      "source": "",
+      "url": ""
+    },
+    "me\\a5_14446": {
+      "comment": "",
+      "name": "BSFX Howling Wind",
+      "source": "",
+      "url": ""
+    },
+    "me\\ame": {
+      "comment": "",
+      "name": "BSFX Rain",
+      "source": "",
+      "url": ""
+    },
+    "me\\ame2": {
+      "comment": "",
+      "name": "BSFX Rain",
+      "source": "",
+      "url": ""
+    },
+    "me\\ame_9": {
+      "comment": "",
+      "name": "BSFX Muted Rain",
+      "source": "",
+      "url": ""
+    },
+    "me\\arasi_fr": {
+      "comment": "",
+      "name": "BSFX Phasor Wind",
+      "source": "",
+      "url": ""
+    },
+    "me\\b7_17370": {
+      "comment": "",
+      "name": "BSFX Helicopter",
+      "source": "",
+      "url": ""
+    },
+    "me\\bell": {
+      "comment": "",
+      "name": "BSFX Antique Bell Phone",
+      "source": "",
+      "url": ""
+    },
+    "me\\bird": {
+      "comment": "",
+      "name": "BSFX Bird",
+      "source": "",
+      "url": ""
+    },
+    "me\\boira": {
+      "comment": "",
+      "name": "BSFX Boiler 1",
+      "source": "",
+      "url": ""
+    },
+    "me\\boiraa": {
+      "comment": "",
+      "name": "BSFX Boiler 2",
+      "source": "",
+      "url": ""
+    },
+    "me\\car_me1": {
+      "comment": "",
+      "name": "BSFX Car Traffic 1",
+      "source": "",
+      "url": ""
+    },
+    "me\\car_me2": {
+      "comment": "",
+      "name": "BSFX Car Traffic 2",
+      "source": "",
+      "url": ""
+    },
+    "me\\child_og": {
+      "comment": "",
+      "name": "BSFX Children Background Noise",
+      "source": "",
+      "url": ""
+    },
+    "me\\densha3": {
+      "comment": "",
+      "name": "BSFX Train 1",
+      "source": "",
+      "url": ""
+    },
+    "me\\densya": {
+      "comment": "",
+      "name": "BSFX Train 2",
+      "source": "",
+      "url": ""
+    },
+    "me\\denwa": {
+      "comment": "",
+      "name": "BSFX Digital phone",
+      "source": "",
+      "url": ""
+    },
+    "me\\denwa2": {
+      "comment": "",
+      "name": "BSFX Antique phone",
+      "source": "",
+      "url": ""
+    },
+    "me\\doukutu_suiryu": {
+      "comment": "",
+      "name": "BSFX Fast Dripping Water",
+      "source": "",
+      "url": ""
+    },
+    "me\\doukutu_suiteki": {
+      "comment": "",
+      "name": "BSFX Slow Dripping Water",
+      "source": "",
+      "url": ""
+    },
+    "me\\flangefemale": {
+      "comment": "",
+      "name": "BSFX Female Ghost Flange",
+      "source": "",
+      "url": ""
+    },
+    "me\\futousurunabe": {
+      "comment": "",
+      "name": "BSFX Bubbling Sound",
+      "source": "",
+      "url": ""
+    },
+    "me\\gaya0": {
+      "comment": "",
+      "name": "BSFX Background Voices 1",
+      "source": "",
+      "url": ""
+    },
+    "me\\gaya1": {
+      "comment": "",
+      "name": "BSFX Background Voices 2",
+      "source": "",
+      "url": ""
+    },
+    "me\\hakushu": {
+      "comment": "",
+      "name": "BSFX Clapping",
+      "source": "",
+      "url": ""
+    },
+    "me\\higurashi.mp3": {
+      "comment": "",
+      "name": "BSFX Higurashi",
+      "source": "",
+      "url": ""
+    },
+    "me\\higurashi": {
+      "comment": "",
+      "name": "BSFX Cicadas 1",
+      "source": "",
+      "url": ""
+    },
+    "me\\higurasi": {
+      "comment": "",
+      "name": "BSFX Cicadas 2",
+      "source": "",
+      "url": ""
+    },
+    "me\\husigitokei": {
+      "comment": "",
+      "name": "BSFX Heavy Echoing Clock Ticking",
+      "source": "",
+      "url": ""
+    },
+    "me\\kawa": {
+      "comment": "",
+      "name": "BSFX Flowing River",
+      "source": "",
+      "url": ""
+    },
+    "me\\kaze": {
+      "comment": "",
+      "name": "BSFX Phasor Wind",
+      "source": "",
+      "url": ""
+    },
+    "me\\kaze_b": {
+      "comment": "",
+      "name": "BSFX Phasor Wind 2",
+      "source": "",
+      "url": ""
+    },
+    "me\\kaze_fr1": {
+      "comment": "",
+      "name": "BSFX Loud Phasor Wind",
+      "source": "",
+      "url": ""
+    },
+    "me\\koware_wind": {
+      "comment": "",
+      "name": "BSFX Phasor Wind 3",
+      "source": "",
+      "url": ""
+    },
+    "me\\kuroden_bell2": {
+      "comment": "",
+      "name": "BSFX Bell Phone Ringing",
+      "source": "",
+      "url": ""
+    },
+    "me\\kuroden_bell2_far": {
+      "comment": "",
+      "name": "BSFX Distant Bell Phone Ringing",
+      "source": "",
+      "url": ""
+    },
+    "me\\lgsk_warai": {
+      "comment": "",
+      "name": "BSFX Scary Echo Laughing",
+      "source": "",
+      "url": ""
+    },
+    "me\\lg_musi_yoru": {
+      "comment": "",
+      "name": "BSFX Night Pond Noises",
+      "source": "",
+      "url": ""
+    },
+    "me\\mati": {
+      "comment": "",
+      "name": "BSFX Driving Noises 1",
+      "source": "",
+      "url": ""
+    },
+    "me\\mati_kotu": {
+      "comment": "",
+      "name": "BSFX Driving Noises 2",
+      "source": "",
+      "url": ""
+    },
+    "me\\mati_kotu2": {
+      "comment": "",
+      "name": "BSFX Driving Noises 3",
+      "source": "",
+      "url": ""
+    },
+    "me\\me_101": {
+      "comment": "",
+      "name": "BSFX Outside Background Noise 1",
+      "source": "",
+      "url": ""
+    },
+    "me\\me_102": {
+      "comment": "",
+      "name": "BSFX Outside Background Noise 2",
+      "source": "",
+      "url": ""
+    },
+    "me\\me_103": {
+      "comment": "",
+      "name": "BSFX Outside Background Noise 3",
+      "source": "",
+      "url": ""
+    },
+    "me\\me_104": {
+      "comment": "",
+      "name": "BSFX Outside Background Noise 4",
+      "source": "",
+      "url": ""
+    },
+    "me\\me_105": {
+      "comment": "",
+      "name": "BSFX Outside Background Noise 5",
+      "source": "",
+      "url": ""
+    },
+    "me\\me_106": {
+      "comment": "",
+      "name": "BSFX Outside Background Noise 6",
+      "source": "",
+      "url": ""
+    },
+    "me\\me_107": {
+      "comment": "",
+      "name": "BSFX Outside Background Noise 7",
+      "source": "",
+      "url": ""
+    },
+    "me\\rain4_long": {
+      "comment": "",
+      "name": "BSFX Rain 4",
+      "source": "",
+      "url": ""
+    },
+    "me\\semi": {
+      "comment": "",
+      "name": "BSFX Cicadas",
+      "source": "",
+      "url": ""
+    },
+    "me\\semi_r": {
+      "comment": "",
+      "name": "BSFX Phasor Cicadas",
+      "source": "",
+      "url": ""
+    },
+    "me\\storm2": {
+      "comment": "",
+      "name": "BSFX Storm",
+      "source": "",
+      "url": ""
+    },
+    "me\\suiteki": {
+      "comment": "",
+      "name": "BSFX Dripping Water",
+      "source": "",
+      "url": ""
+    },
+    "me\\suzu": {
+      "comment": "",
+      "name": "BSFX Sleigh Bells",
+      "source": "",
+      "url": ""
+    },
+    "me\\suzume": {
+      "comment": "",
+      "name": "BSFX Soft Birds Chirping",
+      "source": "",
+      "url": ""
+    },
+    "me\\taip": {
+      "comment": "",
+      "name": "BSFX Satisfying Typing Noises",
+      "source": "",
+      "url": ""
+    },
+    "me\\tokeil4": {
+      "comment": "",
+      "name": "BSFX Clock Ticking",
+      "source": "",
+      "url": ""
+    },
+    "me\\tokei_f3": {
+      "comment": "",
+      "name": "BSFX Echoing Clock Ticking 1",
+      "source": "",
+      "url": ""
+    },
+    "me\\tokei_fr3": {
+      "comment": "",
+      "name": "BSFX Echoing Clock Ticking 2",
+      "source": "",
+      "url": ""
+    },
+    "me\\tokei_loop_l4": {
+      "comment": "",
+      "name": "BSFX Clock Ticking Loop",
+      "source": "",
+      "url": ""
+    },
+    "me\\town2": {
+      "comment": "",
+      "name": "BSFX Town Road Driving Noises",
+      "source": "",
+      "url": ""
+    },
+    "me\\yoru": {
+      "comment": "",
+      "name": "BSFX Night Time Insect Chirping",
+      "source": "",
+      "url": ""
+    }
+  }
+}
