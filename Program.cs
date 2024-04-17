@@ -123,7 +123,7 @@ void WriteResultsAsJSONFiles(Dictionary<string, VideoInfo?> results, string path
 
         if (pathParts.Length < 4)
         {
-            throw new Exception("Invalid path");
+            throw new Exception($"Invalid path - maybe you forgot to put BGM folders in a subfolder like 'mod/question'? Badpath: {path}");
         }
 
         // Determine what the relative path of the BGM is
